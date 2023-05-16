@@ -1,0 +1,40 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="1" l="1683832031108" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="70" l="1683997289116" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1683836287325" />
+    </e>
+    <e n="EditorDown">
+      <i c="2" l="1684069462609" />
+    </e>
+    <e n="EditorEnter">
+      <i c="13" l="1684069520932" />
+    </e>
+    <e n="GotoAction">
+      <i c="9" l="1683965985236" />
+    </e>
+    <e n="GotoTest">
+      <i c="3" l="1683966832852" />
+    </e>
+    <e n="NewClass">
+      <i c="2" l="1683830394116" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="2" l="1683830374310" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="2" l="1683830330494" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="2" l="1684264703891" />
+    </e>
+    <e n="tasks.switch">
+      <i c="1" l="1683966822321" />
+    </e>
+  </component>
+</application>

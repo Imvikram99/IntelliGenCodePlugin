@@ -1,0 +1,46 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo frameTitle="untitled" projectWorkspaceId="2PetmJ9sIk8sLzwnQsFUnmfGIzj">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-221.6008.13" />
+              <option name="buildTimestamp" value="1658206866258" />
+              <frame x="20" y="45" width="1400" height="835" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1683829533110" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/untitled3">
+          <value>
+            <RecentProjectMetaInfo frameTitle="untitled3 – bb.java" projectWorkspaceId="2PevUquah5u7cvtQuBsvl1e2rIL">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-221.6008.13" />
+              <option name="buildTimestamp" value="1658206876532" />
+              <frame x="20" y="45" width="1400" height="835" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1683830380123" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/test">
+          <value>
+            <RecentProjectMetaInfo frameTitle="test – test.java" projectWorkspaceId="2PetPnayfIDKj5XjSdYb5ziS5PL">
+              <option name="activationTimestamp" value="1684264729422" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-221.6008.13" />
+              <option name="buildTimestamp" value="1658206879179" />
+              <frame x="20" y="45" width="1400" height="835" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1684264704430" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+  </component>
+</application>

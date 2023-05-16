@@ -1,0 +1,15 @@
+<application>
+  <component name="WindowManager">
+    <frame x="20" y="45" width="1400" height="835" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="720" y="425" width="800" height="650" key="WELCOME_SCREEN" timestamp="1684264753399">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="720" y="425" width="800" height="650" key="WELCOME_SCREEN/0.25.1440.875" timestamp="1684264753399" />
+    <state x="320" y="115" width="800" height="620" key="new project wizard" timestamp="1683830379995">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="320" y="115" width="800" height="620" key="new project wizard/0.25.1440.875" timestamp="1683830379995" />
+  </component>
+</application>
