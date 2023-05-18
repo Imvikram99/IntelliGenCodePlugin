@@ -2,6 +2,8 @@ package ai.fastcode.fastcode.action;
 
 import ai.fastcode.fastcode.adapter.OpenAiAdapter;
 import ai.fastcode.fastcode.icon.IconClass;
+import ai.fastcode.fastcode.service.APIService;
+import com.intellij.openapi.actionSystem.ActionManager;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.CommonDataKeys;
@@ -23,6 +25,12 @@ public class CodeThisAction extends AnAction {
 
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
+        APIService apiService = APIService.getInstance();
+        String apiKey = apiService.getApiKey();
+        if (apiKey.isEmpty()) {
+            AnAction promptKeyAction = ActionManager.getInstance().getAction("ai.fastcode.fastcode.action.PromptKeyAction");
+            promptKeyAction.actionPerformed(e);
+        }
         final Editor editor = e.getRequiredData(CommonDataKeys.EDITOR);
         final Project project = e.getRequiredData(CommonDataKeys.PROJECT);
         final Document document = editor.getDocument();

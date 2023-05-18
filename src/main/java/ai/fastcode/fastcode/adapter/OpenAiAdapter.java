@@ -2,6 +2,7 @@ package ai.fastcode.fastcode.adapter;
 import ai.fastcode.fastcode.Model.Message;
 import ai.fastcode.fastcode.Model.OpenAIConversationDto;
 import ai.fastcode.fastcode.Model.OpenAIConversationResDto;
+import ai.fastcode.fastcode.service.APIService;
 import com.google.gson.Gson;
 import okhttp3.*;
 
@@ -18,7 +19,7 @@ public class OpenAiAdapter {
     private static final String MODEL_LATEST = "gpt-4";
     private static final String USER_ROLE = "user";
     private static final String API_URL = "https://api.openai.com/v1/chat/completions";
-    private static final String API_KEY = "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";
+    private static final String API_KEY = APIService.getInstance().getApiKey();
 
     private static final int timeout = 60;
     private static final OkHttpClient client = new OkHttpClient.Builder()
