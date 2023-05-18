@@ -27,7 +27,7 @@ public class CodeThisAction extends AnAction {
     public void actionPerformed(@NotNull AnActionEvent e) {
         APIService apiService = APIService.getInstance();
         String apiKey = apiService.getApiKey();
-        if (apiKey.isEmpty()) {
+        if (apiKey==null || apiKey.isEmpty()) {
             AnAction promptKeyAction = ActionManager.getInstance().getAction("ai.fastcode.fastcode.action.PromptKeyAction");
             promptKeyAction.actionPerformed(e);
         }
@@ -37,7 +37,7 @@ public class CodeThisAction extends AnAction {
         String query = Messages.showInputDialog(project, "Please provide code details: type and language/framework", "IntelliCodeGen", Messages.getQuestionIcon());
 
         if (query != null && !query.isEmpty()) {
-            query = query + ", write just code nothing else no explanation";
+            query = query + ", write just code nothing else no explanation , because i will copy paste exactly in my code without removing a single line or you can provide explanation as small comment if you want";
             final String prompt = query;
             ApplicationManager.getApplication().invokeLater(() -> {
                 ApplicationManager.getApplication().runReadAction(() -> {
@@ -45,6 +45,7 @@ public class CodeThisAction extends AnAction {
                     ApplicationManager.getApplication().executeOnPooledThread(() -> {
                         try {
                             String res = OpenAiAdapter.generate(prompt);
+                            System.out.println("res: "+res);
                             ApplicationManager.getApplication().invokeLater(() -> {
                                 WriteCommandAction.runWriteCommandAction(project, () -> {
                                     int validOffset = Math.min(offset, document.getTextLength());
