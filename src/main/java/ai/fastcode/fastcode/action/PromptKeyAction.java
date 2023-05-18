@@ -16,7 +16,7 @@ public class PromptKeyAction extends AnAction {
         String apiKey = apiService.getApiKey();
         if (apiKey==null || apiKey.isEmpty()) {
             apiKey = Messages.showInputDialog(
-                    "Please enter your API Key: NOTE : YOU WILL GET ONLY ONE CHANCE TO ENTER THE KEY , SO MAKE SURE YOU PROVIDE TEH CORRECT KEY",
+                    "Please enter your API Key:",
                     "API Key Required",
                     Messages.getQuestionIcon()
             );

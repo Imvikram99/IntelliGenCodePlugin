@@ -42,7 +42,6 @@ public class OpenAiAdapter {
             OpenAIConversationResDto openAIConversationResDto = sendRequestToOpenAI(json);
             return openAIConversationResDto.getChoices().get(0).getMessage().getContent();
         }catch(Exception e) {
-            //APIService.getInstance().setApiKey("");
             return "your request couldn't be processed";
         }
     }

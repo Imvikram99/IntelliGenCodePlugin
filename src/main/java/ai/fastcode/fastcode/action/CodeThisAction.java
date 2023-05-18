@@ -34,7 +34,7 @@ public class CodeThisAction extends AnAction {
         final Editor editor = e.getRequiredData(CommonDataKeys.EDITOR);
         final Project project = e.getRequiredData(CommonDataKeys.PROJECT);
         final Document document = editor.getDocument();
-        String query = Messages.showInputDialog(project, "Please provide code details: type and language/framework", "IntelliCodeGen", Messages.getQuestionIcon());
+        String query = Messages.showInputDialog(project, "what needs to be coded and in which language/framework", "IntelliCodeGen", Messages.getQuestionIcon());
 
         if (query != null && !query.isEmpty()) {
             query = query + ", write just code nothing else no explanation , because i will copy paste exactly in my code without removing a single line or you can provide explanation as small comment if you want";
