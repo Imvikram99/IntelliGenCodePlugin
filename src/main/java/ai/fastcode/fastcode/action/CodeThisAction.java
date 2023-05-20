@@ -25,7 +25,7 @@ public class CodeThisAction extends AnAction {
 
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
-        APIService apiService = APIService.getInstance();
+        APIService apiService = APIService.getInstance(e.getProject());
         String apiKey = apiService.getApiKey();
         if (apiKey==null || apiKey.isEmpty()) {
             AnAction promptKeyAction = ActionManager.getInstance().getAction("ai.fastcode.fastcode.action.PromptKeyAction");

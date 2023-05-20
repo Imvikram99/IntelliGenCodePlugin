@@ -19,7 +19,9 @@ public class OpenAiAdapter {
     private static final String MODEL_LATEST = "gpt-4";
     private static final String USER_ROLE = "user";
     private static final String API_URL = "https://api.openai.com/v1/chat/completions";
-    private static  String API_KEY = APIService.getInstance().getApiKey();
+    private static  String API_KEY = "";
+
+    private static String INVALID_API_KEY_MSG = "invalid api key";
 
     private static final int timeout = 60;
     private static final OkHttpClient client = new OkHttpClient.Builder()
@@ -30,7 +32,7 @@ public class OpenAiAdapter {
     private static final Gson gson = new Gson();
 
     public static String generate(String prompt) {
-        API_KEY = APIService.getInstance().getApiKey();
+        API_KEY = APIService.getInstance(null).getApiKey();
             if(API_KEY==null || API_KEY.isEmpty()) {
                 return "couldn't found api key, please provide api key in the pop up, you can generate from your open ai account";
             }
@@ -38,10 +40,12 @@ public class OpenAiAdapter {
         OpenAIConversationDto openAIConversationDto = createOpenAIConversationDto(prompt);
         String json = serializeDtoToJson(openAIConversationDto);
         try{
-
             OpenAIConversationResDto openAIConversationResDto = sendRequestToOpenAI(json);
             return openAIConversationResDto.getChoices().get(0).getMessage().getContent();
         }catch(Exception e) {
+            if(e.getMessage().equals(INVALID_API_KEY_MSG)){
+                return INVALID_API_KEY_MSG+" please provide valid api keys";
+            }
             return "your request couldn't be processed";
         }
     }
@@ -73,8 +77,8 @@ public class OpenAiAdapter {
 
         try (Response response = client.newCall(request).execute()) {
             if(response.code()==401){
-                APIService.getInstance().setApiKey("");
-                throw new RuntimeException("invalid api key");
+                APIService.getInstance(null).setApiKey("");
+                throw new RuntimeException(INVALID_API_KEY_MSG);
             }
             if (!response.isSuccessful()) {
                 throw new IOException("Unexpected code " + response);
@@ -82,7 +86,7 @@ public class OpenAiAdapter {
             OpenAIConversationResDto openAIConversationResDto = gson.fromJson(response.body().string(), OpenAIConversationResDto.class);
             return openAIConversationResDto;
         } catch (Exception e) {
-            throw new RuntimeException("Failed : HTTP error code : " + e.getMessage());
+            throw new RuntimeException(e.getMessage());
         }
     }
 }

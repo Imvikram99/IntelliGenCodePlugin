@@ -3,16 +3,13 @@ package ai.fastcode.fastcode.action;
 import ai.fastcode.fastcode.service.APIService;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
-import org.jetbrains.annotations.NotNull;
 
-import com.intellij.openapi.actionSystem.AnAction;
-import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.ui.Messages;
 
 public class PromptKeyAction extends AnAction {
     @Override
     public void actionPerformed(AnActionEvent e) {
-        APIService apiService = APIService.getInstance();
+        APIService apiService = APIService.getInstance(e.getProject());
         String apiKey = apiService.getApiKey();
         if (apiKey==null || apiKey.isEmpty()) {
             apiKey = Messages.showInputDialog(

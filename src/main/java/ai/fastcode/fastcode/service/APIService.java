@@ -1,6 +1,7 @@
 package ai.fastcode.fastcode.service;
 
 import com.intellij.openapi.components.*;
+import com.intellij.openapi.project.Project;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -11,10 +12,16 @@ public final class APIService implements PersistentStateComponent<APIService.Sta
         public String apiKey = "";
     }
 
+    private static APIService instance;
     private State myState = new State();
 
-    public static APIService getInstance() {
-        return ServiceManager.getService(APIService.class);
+    public static APIService getInstance(Project project) {
+        if(instance == null) {
+            ComponentManager componentManager = project;
+            instance= componentManager.getService(APIService.class);
+        }
+        return instance;
+       // return ServiceManager.getService(APIService.class);
     }
 
     @Nullable
