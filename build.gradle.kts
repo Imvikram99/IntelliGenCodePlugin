@@ -1,10 +1,10 @@
 plugins {
     id("java")
-    id("org.jetbrains.intellij") version "1.12.0"
+    id("org.jetbrains.intellij") version "1.13.3"
 }
 
 group = "ai.fastcode"
-version = "1.0-SNAPSHOT"
+version = "2.0-STABLE"
 
 repositories {
     mavenCentral()

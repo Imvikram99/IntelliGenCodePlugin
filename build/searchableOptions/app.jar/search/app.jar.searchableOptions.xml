@@ -12757,8 +12757,8 @@
     <option name="xml" hit="XML Catalog" />
   </configurable>
   <configurable id="preferences.pluginManager" configurable_name="Plugins">
-    <option name="" hit="1.0-SNAPSHOT" />
-    <option name="snapshot" hit="1.0-SNAPSHOT" />
+    <option name="" hit="2.0-STABLE" />
+    <option name="stable" hit="2.0-STABLE" />
     <option name="android" hit="Android" />
     <option name="ant" hit="Ant" />
     <option name="build" hit="Build Tools" />
