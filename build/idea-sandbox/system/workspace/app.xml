@@ -18727,7 +18727,7 @@
         ]
       }
     },
-    "lastUpdateTime": 1684264712509
+    "lastUpdateTime": 1684573691959
   },
   "dependencies": {
     "featureMap": {
@@ -18739,11 +18739,43 @@
           }
         ]
       },
+      "dotnet:AlibabaCloud.SDK.OSS.Client": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
+      "dotnet:Aliyun.OSS.SDK.NetCore": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
       "dotnet:AWSSDK.Kafka": {
         "dataSet": [
           {
             "pluginIdString": "com.intellij.bigdatatools.kafka",
             "nullablePluginName": "Kafka"
+          }
+        ]
+      },
+      "dotnet:AWSSDK.S3": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
+      "dotnet:Azure.Storage.Blobs": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -18768,6 +18800,14 @@
           {
             "pluginIdString": "com.intellij.rider.godot",
             "nullablePluginName": "Godot Support"
+          }
+        ]
+      },
+      "dotnet:Google.Cloud.Storage.V1": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -18891,6 +18931,14 @@
           }
         ]
       },
+      "dotnet:Minio": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
       "dotnet:Moq": {
         "dataSet": [
           {
@@ -18928,6 +18976,38 @@
           {
             "pluginIdString": "com.settler.rider.specflow",
             "nullablePluginName": "SpecFlow for Rider"
+          }
+        ]
+      },
+      "executable:docker": {
+        "dataSet": [
+          {
+            "pluginIdString": "Docker",
+            "nullablePluginName": "Docker"
+          }
+        ]
+      },
+      "executable:kubectl": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.kubernetes",
+            "nullablePluginName": "Kubernetes"
+          }
+        ]
+      },
+      "executable:podman": {
+        "dataSet": [
+          {
+            "pluginIdString": "Docker",
+            "nullablePluginName": "Docker"
+          }
+        ]
+      },
+      "executable:terraform": {
+        "dataSet": [
+          {
+            "pluginIdString": "org.intellij.plugins.hcl",
+            "nullablePluginName": "Terraform and HCL"
           }
         ]
       },
@@ -19012,6 +19092,14 @@
           {
             "pluginIdString": "com.microsoft.tooling.msservices.intellij.azure",
             "nullablePluginName": "Azure Toolkit for IntelliJ"
+          }
+        ]
+      },
+      "java:com.azure:azure-storage-blob": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -19476,6 +19564,14 @@
           {
             "pluginIdString": "com.intellij.dubbo",
             "nullablePluginName": "Apache Dubbo in Spring Framework"
+          }
+        ]
+      },
+      "java:org.apache.flink:flink-core": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.flink",
+            "nullablePluginName": "Flink"
           }
         ]
       },
@@ -19963,6 +20059,22 @@
           }
         ]
       },
+      "javascript:npm:@azure/storage-blob": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
+      "javascript:npm:@google-cloud/storage": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
       "javascript:npm:@kafkajs/confluent-schema-registry": {
         "dataSet": [
           {
@@ -19976,6 +20088,14 @@
           {
             "pluginIdString": "org.jetbrains.plugins.astro",
             "nullablePluginName": "Astro"
+          }
+        ]
+      },
+      "javascript:npm:cos-nodejs-sdk-v5": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -20008,6 +20128,14 @@
           {
             "pluginIdString": "Karma",
             "nullablePluginName": "Karma"
+          }
+        ]
+      },
+      "javascript:npm:minio": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -20064,6 +20192,14 @@
           {
             "pluginIdString": "com.jetbrains.plugins.jade",
             "nullablePluginName": "Pug (ex-Jade)"
+          }
+        ]
+      },
+      "javascript:npm:s3": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
           }
         ]
       },
@@ -20162,9 +20298,113 @@
             "nullablePluginName": "Maven2 Support"
           }
         ]
+      },
+      "python:apache-flink": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.flink",
+            "nullablePluginName": "Flink"
+          }
+        ]
+      },
+      "python:azure-storage-blob": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
+      "python:boto3-kafka": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
+      "python:confluent-kafka": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
+          }
+        ]
+      },
+      "python:cos-python-sdk-v5": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
+      "python:google-cloud-storage": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
+      "python:hdfs": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
+      "python:kafka-python": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
+          }
+        ]
+      },
+      "python:librdkafka": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
+          }
+        ]
+      },
+      "python:minio": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
+      "python:oss2": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.rfs",
+            "nullablePluginName": "Remote File Systems"
+          }
+        ]
+      },
+      "python:pyspark": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.spark",
+            "nullablePluginName": "Spark"
+          }
+        ]
+      },
+      "python:python-schema-registry-client": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.intellij.bigdatatools.kafka",
+            "nullablePluginName": "Kafka"
+          }
+        ]
       }
     },
-    "lastUpdateTime": 1684264712539
+    "lastUpdateTime": 1684573692017
   }
 }]]></component>
   <component name="PluginFeatureService">{

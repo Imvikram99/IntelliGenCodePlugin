@@ -12786,7 +12786,7 @@
     <option name="eclipse" hit="Eclipse Keymap" />
     <option name="keymap" hit="Eclipse Keymap" />
     <option name="editorconfig" hit="EditorConfig" />
-    <option name="fastcode" hit="Fastcode" />
+    <option name="fastcode" hit="FastCode" />
     <option name="git" hit="Git" />
     <option name="github" hit="GitHub" />
     <option name="gradle" hit="Gradle" />
@@ -12900,7 +12900,6 @@
     <option name="debugger" hit="XSLT Debugger" />
     <option name="xslt" hit="XSLT Debugger" />
     <option name="yaml" hit="YAML" />
-    <option name="yourcompany" hit="YourCompany" />
     <option name="bundled" hit="bundled" />
     <option name="light" hit="macOS Light Theme" />
     <option name="macos" hit="macOS Light Theme" />

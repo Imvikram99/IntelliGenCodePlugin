@@ -6351,119 +6351,119 @@
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-cast",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-common",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-database",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-datasource",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-datasource-cronet",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-datasource-okhttp",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-datasource-rtmp",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-decoder",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-effect",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-dash",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-hls",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-ima",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-rtsp",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-smoothstreaming",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-workmanager",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-extractor",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -6477,42 +6477,42 @@
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-session",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-test-utils",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-test-utils-robolectric",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-transformer",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-ui",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-ui-leanback",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -11545,28 +11545,28 @@
     {
       "groupId": "com.android.designcompose",
       "artifactId": "annotation",
-      "version": "0.19.0-alpha01",
+      "version": "0.19.0-rc02",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.designcompose",
       "artifactId": "codegen",
-      "version": "0.19.0-alpha01",
+      "version": "0.19.0-rc02",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.designcompose",
       "artifactId": "common",
-      "version": "0.19.0-alpha01",
+      "version": "0.19.0-rc02",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.designcompose",
       "artifactId": "designcompose",
-      "version": "0.19.0-alpha01",
+      "version": "0.19.0-rc02",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -11681,7 +11681,7 @@
     {
       "groupId": "com.android.kotlin.multiplatform.library",
       "artifactId": "com.android.kotlin.multiplatform.library.gradle.plugin",
-      "version": "8.2.0-alpha03",
+      "version": "8.2.0-alpha04",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -12724,7 +12724,7 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "aapt2",
-      "version": "8.2.0-alpha03-9603961",
+      "version": "8.2.0-alpha04-10074350",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13067,7 +13067,7 @@
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-apk-installer",
-      "version": "31.2.0-alpha03",
+      "version": "31.2.0-alpha04",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13109,14 +13109,14 @@
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-emulator-control",
-      "version": "31.2.0-alpha03",
+      "version": "31.2.0-alpha04",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.android.tools.utp",
       "artifactId": "android-test-plugin-host-emulator-control-proto",
-      "version": "31.2.0-alpha03",
+      "version": "31.2.0-alpha04",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13346,7 +13346,7 @@
     {
       "groupId": "com.google.ads.mediation",
       "artifactId": "chartboost",
-      "version": "9.2.1.1",
+      "version": "9.3.0.0",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13395,7 +13395,7 @@
     {
       "groupId": "com.google.ads.mediation",
       "artifactId": "mintegral",
-      "version": "16.4.31.0",
+      "version": "16.4.41.0",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13409,7 +13409,7 @@
     {
       "groupId": "com.google.ads.mediation",
       "artifactId": "mytarget",
-      "version": "5.16.4.1",
+      "version": "5.16.5.0",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13584,7 +13584,7 @@
     {
       "groupId": "com.google.android.car.connectionservice",
       "artifactId": "connectionservice",
-      "version": "2.0.8",
+      "version": "2.1.2",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13750,126 +13750,126 @@
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-common",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-core",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-dash",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-database",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-datasource",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-decoder",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-effect",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-extractor",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-hls",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-robolectricutils",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-rtsp",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-smoothstreaming",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-testutils",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-transformer",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "exoplayer-ui",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "extension-cast",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "extension-cronet",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13883,7 +13883,7 @@
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "extension-ima",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13897,42 +13897,42 @@
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "extension-leanback",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "extension-media2",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "extension-mediasession",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "extension-okhttp",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "extension-rtmp",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.android.exoplayer",
       "artifactId": "extension-workmanager",
-      "version": "2.18.6",
+      "version": "2.18.7",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -14021,7 +14021,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-ads",
-      "version": "22.0.0",
+      "version": "22.1.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite.ModuleDescriptor"
@@ -14030,7 +14030,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-ads-base",
-      "version": "22.0.0",
+      "version": "22.1.0",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -14053,7 +14053,7 @@
     {
       "groupId": "com.google.android.gms",
       "artifactId": "play-services-ads-lite",
-      "version": "22.0.0",
+      "version": "22.1.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.ads.mediation.AbstractAdViewAdapter",
@@ -16940,7 +16940,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "core-common",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.play.core.common.IntentSenderForResultStarter",
@@ -17175,7 +17175,7 @@
     {
       "groupId": "com.google.android.tv",
       "artifactId": "tv-ads",
-      "version": "1.0.0-alpha02",
+      "version": "1.0.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.tv.ads.AdsControlsManager",
@@ -17183,9 +17183,8 @@
         "com.google.android.tv.ads.IconClickFallbackImage",
         "com.google.android.tv.ads.IconClickFallbackImages",
         "com.google.android.tv.ads.SignalCollector",
-        "com.google.android.tv.ads.controls.ErrorMessageFragment",
         "com.google.android.tv.ads.controls.FallbackImageActivity",
-        "com.google.android.tv.ads.controls.WhyThisAdFragment"
+        "com.google.android.tv.ads.controls.SideDrawerFragment"
       ]
     },
     {
@@ -18046,14 +18045,14 @@
     {
       "groupId": "com.google.firebase",
       "artifactId": "firebase-ads",
-      "version": "22.0.0",
+      "version": "22.1.0",
       "ktxTargets": [],
       "fqcns": []
     },
     {
       "groupId": "com.google.firebase",
       "artifactId": "firebase-ads-lite",
-      "version": "22.0.0",
+      "version": "22.1.0",
       "ktxTargets": [],
       "fqcns": []
     },
