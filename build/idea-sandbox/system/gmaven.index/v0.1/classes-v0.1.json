@@ -2011,293 +2011,14 @@
       "artifactId": "material",
       "version": "1.4.3",
       "ktxTargets": [],
-      "fqcns": [
-        "androidx.compose.material.AnchorChangeHandler",
-        "androidx.compose.material.AppBarDefaults",
-        "androidx.compose.material.BackdropScaffoldDefaults",
-        "androidx.compose.material.BackdropScaffoldState",
-        "androidx.compose.material.BackdropValue",
-        "androidx.compose.material.BottomDrawerState",
-        "androidx.compose.material.BottomDrawerValue",
-        "androidx.compose.material.BottomNavigationDefaults",
-        "androidx.compose.material.BottomSheetScaffoldDefaults",
-        "androidx.compose.material.BottomSheetScaffoldState",
-        "androidx.compose.material.BottomSheetState",
-        "androidx.compose.material.BottomSheetValue",
-        "androidx.compose.material.ButtonColors",
-        "androidx.compose.material.ButtonDefaults",
-        "androidx.compose.material.ButtonElevation",
-        "androidx.compose.material.CheckboxColors",
-        "androidx.compose.material.CheckboxDefaults",
-        "androidx.compose.material.ChipColors",
-        "androidx.compose.material.ChipDefaults",
-        "androidx.compose.material.Colors",
-        "androidx.compose.material.ContentAlpha",
-        "androidx.compose.material.DismissDirection",
-        "androidx.compose.material.DismissState",
-        "androidx.compose.material.DismissValue",
-        "androidx.compose.material.DrawerDefaults",
-        "androidx.compose.material.DrawerState",
-        "androidx.compose.material.DrawerValue",
-        "androidx.compose.material.DropdownMenuPositionProvider",
-        "androidx.compose.material.ElevationOverlay",
-        "androidx.compose.material.ExperimentalMaterialApi",
-        "androidx.compose.material.ExposedDropdownMenuBoxScope",
-        "androidx.compose.material.ExposedDropdownMenuDefaults",
-        "androidx.compose.material.FabPlacement",
-        "androidx.compose.material.FabPosition",
-        "androidx.compose.material.FixedThreshold",
-        "androidx.compose.material.FloatingActionButtonDefaults",
-        "androidx.compose.material.FloatingActionButtonElevation",
-        "androidx.compose.material.FractionalThreshold",
-        "androidx.compose.material.MaterialTheme",
-        "androidx.compose.material.MenuDefaults",
-        "androidx.compose.material.ModalBottomSheetDefaults",
-        "androidx.compose.material.ModalBottomSheetState",
-        "androidx.compose.material.ModalBottomSheetValue",
-        "androidx.compose.material.NavigationRailDefaults",
-        "androidx.compose.material.ProgressIndicatorDefaults",
-        "androidx.compose.material.RadioButtonColors",
-        "androidx.compose.material.RadioButtonDefaults",
-        "androidx.compose.material.ResistanceConfig",
-        "androidx.compose.material.ScaffoldState",
-        "androidx.compose.material.SelectableChipColors",
-        "androidx.compose.material.Shapes",
-        "androidx.compose.material.SliderColors",
-        "androidx.compose.material.SliderDefaults",
-        "androidx.compose.material.SnackbarData",
-        "androidx.compose.material.SnackbarDefaults",
-        "androidx.compose.material.SnackbarDuration",
-        "androidx.compose.material.SnackbarHostState",
-        "androidx.compose.material.SnackbarResult",
-        "androidx.compose.material.Strings",
-        "androidx.compose.material.SwipeProgress",
-        "androidx.compose.material.SwipeableDefaults",
-        "androidx.compose.material.SwipeableState",
-        "androidx.compose.material.SwipeableV2Defaults",
-        "androidx.compose.material.SwipeableV2State",
-        "androidx.compose.material.SwitchColors",
-        "androidx.compose.material.SwitchDefaults",
-        "androidx.compose.material.TabPosition",
-        "androidx.compose.material.TabRowDefaults",
-        "androidx.compose.material.TextFieldColors",
-        "androidx.compose.material.TextFieldColorsWithIcons",
-        "androidx.compose.material.TextFieldDefaults",
-        "androidx.compose.material.TextFieldType",
-        "androidx.compose.material.ThresholdConfig",
-        "androidx.compose.material.Typography",
-        "androidx.compose.material.pullrefresh.PullRefreshDefaults",
-        "androidx.compose.material.pullrefresh.PullRefreshState"
-      ],
-      "ktlfns": [
-        {
-          "fqn": "androidx.compose.material.AndroidAlertDialog_androidKt.AlertDialog"
-        },
-        {
-          "fqn": "androidx.compose.material.AndroidMenu_androidKt.DropdownMenu"
-        },
-        {
-          "fqn": "androidx.compose.material.AndroidMenu_androidKt.DropdownMenuItem"
-        },
-        {
-          "fqn": "androidx.compose.material.AppBarKt.BottomAppBar"
-        },
-        {
-          "fqn": "androidx.compose.material.AppBarKt.TopAppBar"
-        },
-        {
-          "fqn": "androidx.compose.material.BackdropScaffoldKt.BackdropScaffold"
-        },
-        {
-          "fqn": "androidx.compose.material.BackdropScaffoldKt.rememberBackdropScaffoldState"
-        },
-        {
-          "fqn": "androidx.compose.material.BadgeKt.Badge"
-        },
-        {
-          "fqn": "androidx.compose.material.BadgeKt.BadgedBox"
-        },
-        {
-          "fqn": "androidx.compose.material.BottomNavigationKt.BottomNavigation"
-        },
-        {
-          "fqn": "androidx.compose.material.BottomSheetScaffoldKt.BottomSheetScaffold"
-        },
-        {
-          "fqn": "androidx.compose.material.BottomSheetScaffoldKt.rememberBottomSheetScaffoldState"
-        },
-        {
-          "fqn": "androidx.compose.material.BottomSheetScaffoldKt.rememberBottomSheetState"
-        },
-        {
-          "fqn": "androidx.compose.material.ButtonKt.Button"
-        },
-        {
-          "fqn": "androidx.compose.material.ButtonKt.OutlinedButton"
-        },
-        {
-          "fqn": "androidx.compose.material.ButtonKt.TextButton"
-        },
-        {
-          "fqn": "androidx.compose.material.CardKt.Card"
-        },
-        {
-          "fqn": "androidx.compose.material.CheckboxKt.Checkbox"
-        },
-        {
-          "fqn": "androidx.compose.material.CheckboxKt.TriStateCheckbox"
-        },
-        {
-          "fqn": "androidx.compose.material.ChipKt.Chip"
-        },
-        {
-          "fqn": "androidx.compose.material.ChipKt.FilterChip"
-        },
-        {
-          "fqn": "androidx.compose.material.ColorsKt.contentColorFor"
-        },
-        {
-          "fqn": "androidx.compose.material.ColorsKt.darkColors"
-        },
-        {
-          "fqn": "androidx.compose.material.ColorsKt.lightColors"
-        },
-        {
-          "fqn": "androidx.compose.material.DividerKt.Divider"
-        },
-        {
-          "fqn": "androidx.compose.material.DrawerKt.BottomDrawer"
-        },
-        {
-          "fqn": "androidx.compose.material.DrawerKt.ModalDrawer"
-        },
-        {
-          "fqn": "androidx.compose.material.DrawerKt.rememberBottomDrawerState"
-        },
-        {
-          "fqn": "androidx.compose.material.DrawerKt.rememberDrawerState"
-        },
-        {
-          "fqn": "androidx.compose.material.ExposedDropdownMenuKt.ExposedDropdownMenuBox"
-        },
-        {
-          "fqn": "androidx.compose.material.FloatingActionButtonKt.ExtendedFloatingActionButton"
-        },
-        {
-          "fqn": "androidx.compose.material.FloatingActionButtonKt.FloatingActionButton"
-        },
-        {
-          "fqn": "androidx.compose.material.IconButtonKt.IconButton"
-        },
-        {
-          "fqn": "androidx.compose.material.IconButtonKt.IconToggleButton"
-        },
-        {
-          "fqn": "androidx.compose.material.IconKt.Icon"
-        },
-        {
-          "fqn": "androidx.compose.material.ListItemKt.ListItem"
-        },
-        {
-          "fqn": "androidx.compose.material.MaterialThemeKt.MaterialTheme"
-        },
-        {
-          "fqn": "androidx.compose.material.ModalBottomSheetKt.ModalBottomSheetLayout"
-        },
-        {
-          "fqn": "androidx.compose.material.ModalBottomSheetKt.ModalBottomSheetState"
-        },
-        {
-          "fqn": "androidx.compose.material.ModalBottomSheetKt.rememberModalBottomSheetState"
-        },
-        {
-          "fqn": "androidx.compose.material.NavigationRailKt.NavigationRail"
-        },
-        {
-          "fqn": "androidx.compose.material.NavigationRailKt.NavigationRailItem"
-        },
-        {
-          "fqn": "androidx.compose.material.OutlinedTextFieldKt.OutlinedTextField"
-        },
-        {
-          "fqn": "androidx.compose.material.ProgressIndicatorKt.CircularProgressIndicator"
-        },
-        {
-          "fqn": "androidx.compose.material.ProgressIndicatorKt.LinearProgressIndicator"
-        },
-        {
-          "fqn": "androidx.compose.material.RadioButtonKt.RadioButton"
-        },
-        {
-          "fqn": "androidx.compose.material.ScaffoldKt.Scaffold"
-        },
-        {
-          "fqn": "androidx.compose.material.ScaffoldKt.rememberScaffoldState"
-        },
-        {
-          "fqn": "androidx.compose.material.SliderKt.RangeSlider"
-        },
-        {
-          "fqn": "androidx.compose.material.SliderKt.Slider"
-        },
-        {
-          "fqn": "androidx.compose.material.SnackbarHostKt.SnackbarHost"
-        },
-        {
-          "fqn": "androidx.compose.material.SnackbarKt.Snackbar"
-        },
-        {
-          "fqn": "androidx.compose.material.SurfaceKt.Surface"
-        },
-        {
-          "fqn": "androidx.compose.material.SwipeToDismissKt.SwipeToDismiss"
-        },
-        {
-          "fqn": "androidx.compose.material.SwipeToDismissKt.rememberDismissState"
-        },
-        {
-          "fqn": "androidx.compose.material.SwipeableKt.rememberSwipeableState"
-        },
-        {
-          "fqn": "androidx.compose.material.SwitchKt.Switch"
-        },
-        {
-          "fqn": "androidx.compose.material.TabKt.LeadingIconTab"
-        },
-        {
-          "fqn": "androidx.compose.material.TabKt.Tab"
-        },
-        {
-          "fqn": "androidx.compose.material.TabRowKt.ScrollableTabRow"
-        },
-        {
-          "fqn": "androidx.compose.material.TabRowKt.TabRow"
-        },
-        {
-          "fqn": "androidx.compose.material.TextFieldKt.TextField"
-        },
-        {
-          "fqn": "androidx.compose.material.TextKt.ProvideTextStyle"
-        },
-        {
-          "fqn": "androidx.compose.material.TextKt.Text"
-        },
-        {
-          "fqn": "androidx.compose.material.pullrefresh.PullRefreshIndicatorKt.PullRefreshIndicator"
-        },
-        {
-          "fqn": "androidx.compose.material.pullrefresh.PullRefreshStateKt.rememberPullRefreshState"
-        }
-      ]
+      "fqcns": []
     },
     {
       "groupId": "androidx.compose.material",
       "artifactId": "material-icons-core",
       "version": "1.4.3",
       "ktxTargets": [],
-      "fqcns": [
-        "androidx.compose.material.icons.Icons"
-      ]
+      "fqcns": []
     },
     {
       "groupId": "androidx.compose.material",
@@ -2311,52 +2032,1045 @@
       "artifactId": "material-ripple",
       "version": "1.4.3",
       "ktxTargets": [],
-      "fqcns": [
-        "androidx.compose.material.ripple.AndroidRippleIndicationInstance",
-        "androidx.compose.material.ripple.CommonRipple",
-        "androidx.compose.material.ripple.CommonRippleIndicationInstance",
-        "androidx.compose.material.ripple.PlatformRipple",
-        "androidx.compose.material.ripple.Ripple",
-        "androidx.compose.material.ripple.RippleAlpha",
-        "androidx.compose.material.ripple.RippleAnimation",
-        "androidx.compose.material.ripple.RippleContainer",
-        "androidx.compose.material.ripple.RippleHostView",
-        "androidx.compose.material.ripple.RippleIndicationInstance",
-        "androidx.compose.material.ripple.RippleTheme"
-      ],
-      "ktlfns": [
-        {
-          "fqn": "androidx.compose.material.ripple.RippleKt.rememberRipple"
-        }
-      ]
+      "fqcns": []
     },
     {
       "groupId": "androidx.compose.material3",
       "artifactId": "material3",
       "version": "1.1.0",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.compose.material3.AlertDialogDefaults",
+        "androidx.compose.material3.AnchorChangeHandler",
+        "androidx.compose.material3.AssistChipDefaults",
+        "androidx.compose.material3.BadgeDefaults",
+        "androidx.compose.material3.BottomAppBarDefaults",
+        "androidx.compose.material3.BottomSheetDefaults",
+        "androidx.compose.material3.BottomSheetScaffoldState",
+        "androidx.compose.material3.ButtonColors",
+        "androidx.compose.material3.ButtonDefaults",
+        "androidx.compose.material3.ButtonElevation",
+        "androidx.compose.material3.CalendarDate",
+        "androidx.compose.material3.CalendarModel",
+        "androidx.compose.material3.CalendarMonth",
+        "androidx.compose.material3.CardColors",
+        "androidx.compose.material3.CardDefaults",
+        "androidx.compose.material3.CardElevation",
+        "androidx.compose.material3.CheckboxColors",
+        "androidx.compose.material3.CheckboxDefaults",
+        "androidx.compose.material3.ChipBorder",
+        "androidx.compose.material3.ChipColors",
+        "androidx.compose.material3.ChipElevation",
+        "androidx.compose.material3.ColorScheme",
+        "androidx.compose.material3.DateInputFormat",
+        "androidx.compose.material3.DateInputValidator",
+        "androidx.compose.material3.DatePickerColors",
+        "androidx.compose.material3.DatePickerDefaults",
+        "androidx.compose.material3.DatePickerFormatter",
+        "androidx.compose.material3.DatePickerState",
+        "androidx.compose.material3.DateRangePickerDefaults",
+        "androidx.compose.material3.DateRangePickerState",
+        "androidx.compose.material3.DismissDirection",
+        "androidx.compose.material3.DismissState",
+        "androidx.compose.material3.DismissValue",
+        "androidx.compose.material3.DisplayMode",
+        "androidx.compose.material3.DividerDefaults",
+        "androidx.compose.material3.DrawerDefaults",
+        "androidx.compose.material3.DrawerState",
+        "androidx.compose.material3.DrawerValue",
+        "androidx.compose.material3.DropdownMenuPositionProvider",
+        "androidx.compose.material3.ExperimentalMaterial3Api",
+        "androidx.compose.material3.ExposedDropdownMenuBoxScope",
+        "androidx.compose.material3.ExposedDropdownMenuDefaults",
+        "androidx.compose.material3.FabPlacement",
+        "androidx.compose.material3.FabPosition",
+        "androidx.compose.material3.FilterChipDefaults",
+        "androidx.compose.material3.FixedThreshold",
+        "androidx.compose.material3.FloatingActionButtonDefaults",
+        "androidx.compose.material3.FloatingActionButtonElevation",
+        "androidx.compose.material3.FractionalThreshold",
+        "androidx.compose.material3.IconButtonColors",
+        "androidx.compose.material3.IconButtonDefaults",
+        "androidx.compose.material3.IconToggleButtonColors",
+        "androidx.compose.material3.InputChipDefaults",
+        "androidx.compose.material3.InputIdentifier",
+        "androidx.compose.material3.InternalMutatorMutex",
+        "androidx.compose.material3.ListItemColors",
+        "androidx.compose.material3.ListItemDefaults",
+        "androidx.compose.material3.MappedInteractionSource",
+        "androidx.compose.material3.MaterialTheme",
+        "androidx.compose.material3.MenuDefaults",
+        "androidx.compose.material3.MenuItemColors",
+        "androidx.compose.material3.NavigationBarDefaults",
+        "androidx.compose.material3.NavigationBarItemColors",
+        "androidx.compose.material3.NavigationBarItemDefaults",
+        "androidx.compose.material3.NavigationDrawerItemColors",
+        "androidx.compose.material3.NavigationDrawerItemDefaults",
+        "androidx.compose.material3.NavigationRailDefaults",
+        "androidx.compose.material3.NavigationRailItemColors",
+        "androidx.compose.material3.NavigationRailItemDefaults",
+        "androidx.compose.material3.OutlinedTextFieldDefaults",
+        "androidx.compose.material3.PlainTooltipState",
+        "androidx.compose.material3.ProgressIndicatorDefaults",
+        "androidx.compose.material3.RadioButtonColors",
+        "androidx.compose.material3.RadioButtonDefaults",
+        "androidx.compose.material3.ResistanceConfig",
+        "androidx.compose.material3.RichTooltipColors",
+        "androidx.compose.material3.RichTooltipState",
+        "androidx.compose.material3.ScaffoldDefaults",
+        "androidx.compose.material3.SearchBarColors",
+        "androidx.compose.material3.SearchBarDefaults",
+        "androidx.compose.material3.SelectableChipBorder",
+        "androidx.compose.material3.SelectableChipColors",
+        "androidx.compose.material3.SelectableChipElevation",
+        "androidx.compose.material3.SelectedRangeInfo",
+        "androidx.compose.material3.Selection",
+        "androidx.compose.material3.ShapeDefaults",
+        "androidx.compose.material3.Shapes",
+        "androidx.compose.material3.SheetState",
+        "androidx.compose.material3.SheetValue",
+        "androidx.compose.material3.SliderColors",
+        "androidx.compose.material3.SliderDefaults",
+        "androidx.compose.material3.SliderPositions",
+        "androidx.compose.material3.SnackbarData",
+        "androidx.compose.material3.SnackbarDefaults",
+        "androidx.compose.material3.SnackbarDuration",
+        "androidx.compose.material3.SnackbarHostState",
+        "androidx.compose.material3.SnackbarResult",
+        "androidx.compose.material3.SnackbarVisuals",
+        "androidx.compose.material3.SnapFlingBehavior",
+        "androidx.compose.material3.StateData",
+        "androidx.compose.material3.Strings",
+        "androidx.compose.material3.SuggestionChipDefaults",
+        "androidx.compose.material3.SwipeProgress",
+        "androidx.compose.material3.SwipeToDismissDefaults",
+        "androidx.compose.material3.SwipeableDefaults",
+        "androidx.compose.material3.SwipeableState",
+        "androidx.compose.material3.SwipeableV2Defaults",
+        "androidx.compose.material3.SwipeableV2State",
+        "androidx.compose.material3.SwitchColors",
+        "androidx.compose.material3.SwitchDefaults",
+        "androidx.compose.material3.TabPosition",
+        "androidx.compose.material3.TabRowDefaults",
+        "androidx.compose.material3.TextFieldColors",
+        "androidx.compose.material3.TextFieldDefaults",
+        "androidx.compose.material3.TextFieldType",
+        "androidx.compose.material3.ThresholdConfig",
+        "androidx.compose.material3.TimePickerColors",
+        "androidx.compose.material3.TimePickerDefaults",
+        "androidx.compose.material3.TimePickerLayoutType",
+        "androidx.compose.material3.TimePickerState",
+        "androidx.compose.material3.TonalPalette",
+        "androidx.compose.material3.TooltipBoxScope",
+        "androidx.compose.material3.TooltipDefaults",
+        "androidx.compose.material3.TooltipState",
+        "androidx.compose.material3.TopAppBarColors",
+        "androidx.compose.material3.TopAppBarDefaults",
+        "androidx.compose.material3.TopAppBarScrollBehavior",
+        "androidx.compose.material3.TopAppBarState",
+        "androidx.compose.material3.Typography",
+        "androidx.compose.material3.tokens.AssistChipTokens",
+        "androidx.compose.material3.tokens.BadgeTokens",
+        "androidx.compose.material3.tokens.BottomAppBarTokens",
+        "androidx.compose.material3.tokens.CheckboxTokens",
+        "androidx.compose.material3.tokens.CircularProgressIndicatorTokens",
+        "androidx.compose.material3.tokens.ColorDarkTokens",
+        "androidx.compose.material3.tokens.ColorLightTokens",
+        "androidx.compose.material3.tokens.ColorSchemeKeyTokens",
+        "androidx.compose.material3.tokens.DateInputModalTokens",
+        "androidx.compose.material3.tokens.DatePickerModalTokens",
+        "androidx.compose.material3.tokens.DialogTokens",
+        "androidx.compose.material3.tokens.DividerTokens",
+        "androidx.compose.material3.tokens.ElevatedButtonTokens",
+        "androidx.compose.material3.tokens.ElevatedCardTokens",
+        "androidx.compose.material3.tokens.ElevationTokens",
+        "androidx.compose.material3.tokens.ExtendedFabPrimaryTokens",
+        "androidx.compose.material3.tokens.FabPrimaryLargeTokens",
+        "androidx.compose.material3.tokens.FabPrimarySmallTokens",
+        "androidx.compose.material3.tokens.FabPrimaryTokens",
+        "androidx.compose.material3.tokens.FabSecondaryTokens",
+        "androidx.compose.material3.tokens.FilledAutocompleteTokens",
+        "androidx.compose.material3.tokens.FilledButtonTokens",
+        "androidx.compose.material3.tokens.FilledCardTokens",
+        "androidx.compose.material3.tokens.FilledIconButtonTokens",
+        "androidx.compose.material3.tokens.FilledTextFieldTokens",
+        "androidx.compose.material3.tokens.FilledTonalButtonTokens",
+        "androidx.compose.material3.tokens.FilledTonalIconButtonTokens",
+        "androidx.compose.material3.tokens.FilterChipTokens",
+        "androidx.compose.material3.tokens.IconButtonTokens",
+        "androidx.compose.material3.tokens.InputChipTokens",
+        "androidx.compose.material3.tokens.LinearProgressIndicatorTokens",
+        "androidx.compose.material3.tokens.ListTokens",
+        "androidx.compose.material3.tokens.MenuTokens",
+        "androidx.compose.material3.tokens.MotionTokens",
+        "androidx.compose.material3.tokens.NavigationBarTokens",
+        "androidx.compose.material3.tokens.NavigationDrawerTokens",
+        "androidx.compose.material3.tokens.NavigationRailTokens",
+        "androidx.compose.material3.tokens.OutlinedAutocompleteTokens",
+        "androidx.compose.material3.tokens.OutlinedButtonTokens",
+        "androidx.compose.material3.tokens.OutlinedCardTokens",
+        "androidx.compose.material3.tokens.OutlinedIconButtonTokens",
+        "androidx.compose.material3.tokens.OutlinedTextFieldTokens",
+        "androidx.compose.material3.tokens.PaletteTokens",
+        "androidx.compose.material3.tokens.PlainTooltipTokens",
+        "androidx.compose.material3.tokens.PrimaryNavigationTabTokens",
+        "androidx.compose.material3.tokens.RadioButtonTokens",
+        "androidx.compose.material3.tokens.RichTooltipTokens",
+        "androidx.compose.material3.tokens.ScrimTokens",
+        "androidx.compose.material3.tokens.SearchBarTokens",
+        "androidx.compose.material3.tokens.SearchViewTokens",
+        "androidx.compose.material3.tokens.ShapeKeyTokens",
+        "androidx.compose.material3.tokens.ShapeTokens",
+        "androidx.compose.material3.tokens.SheetBottomTokens",
+        "androidx.compose.material3.tokens.SliderTokens",
+        "androidx.compose.material3.tokens.SnackbarTokens",
+        "androidx.compose.material3.tokens.StateTokens",
+        "androidx.compose.material3.tokens.SuggestionChipTokens",
+        "androidx.compose.material3.tokens.SwitchTokens",
+        "androidx.compose.material3.tokens.TextButtonTokens",
+        "androidx.compose.material3.tokens.TimeInputTokens",
+        "androidx.compose.material3.tokens.TimePickerTokens",
+        "androidx.compose.material3.tokens.TopAppBarLargeTokens",
+        "androidx.compose.material3.tokens.TopAppBarMediumTokens",
+        "androidx.compose.material3.tokens.TopAppBarSmallCenteredTokens",
+        "androidx.compose.material3.tokens.TopAppBarSmallTokens",
+        "androidx.compose.material3.tokens.TypeScaleTokens",
+        "androidx.compose.material3.tokens.TypefaceTokens",
+        "androidx.compose.material3.tokens.TypographyKeyTokens",
+        "androidx.compose.material3.tokens.TypographyTokens"
+      ],
+      "ktlfns": [
+        {
+          "fqn": "androidx.compose.material3.AndroidAlertDialog_androidKt.AlertDialog"
+        },
+        {
+          "fqn": "androidx.compose.material3.AndroidMenu_androidKt.DropdownMenu"
+        },
+        {
+          "fqn": "androidx.compose.material3.AndroidMenu_androidKt.DropdownMenuItem"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.BottomAppBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.CenterAlignedTopAppBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.LargeTopAppBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.MediumTopAppBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.TopAppBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.rememberTopAppBarState"
+        },
+        {
+          "fqn": "androidx.compose.material3.BadgeKt.Badge"
+        },
+        {
+          "fqn": "androidx.compose.material3.BadgeKt.BadgedBox"
+        },
+        {
+          "fqn": "androidx.compose.material3.BottomSheetScaffoldKt.BottomSheetScaffold"
+        },
+        {
+          "fqn": "androidx.compose.material3.BottomSheetScaffoldKt.rememberBottomSheetScaffoldState"
+        },
+        {
+          "fqn": "androidx.compose.material3.BottomSheetScaffoldKt.rememberStandardBottomSheetState"
+        },
+        {
+          "fqn": "androidx.compose.material3.ButtonKt.Button"
+        },
+        {
+          "fqn": "androidx.compose.material3.ButtonKt.ElevatedButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.ButtonKt.FilledTonalButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.ButtonKt.OutlinedButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.ButtonKt.TextButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.CardKt.Card"
+        },
+        {
+          "fqn": "androidx.compose.material3.CardKt.ElevatedCard"
+        },
+        {
+          "fqn": "androidx.compose.material3.CardKt.OutlinedCard"
+        },
+        {
+          "fqn": "androidx.compose.material3.CheckboxKt.Checkbox"
+        },
+        {
+          "fqn": "androidx.compose.material3.CheckboxKt.TriStateCheckbox"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.AssistChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.ElevatedAssistChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.ElevatedFilterChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.ElevatedSuggestionChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.FilterChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.InputChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.SuggestionChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ColorSchemeKt.contentColorFor"
+        },
+        {
+          "fqn": "androidx.compose.material3.ColorSchemeKt.darkColorScheme"
+        },
+        {
+          "fqn": "androidx.compose.material3.ColorSchemeKt.lightColorScheme"
+        },
+        {
+          "fqn": "androidx.compose.material3.DatePickerDialog_androidKt.DatePickerDialog"
+        },
+        {
+          "fqn": "androidx.compose.material3.DatePickerKt.DatePicker"
+        },
+        {
+          "fqn": "androidx.compose.material3.DatePickerKt.rememberDatePickerState"
+        },
+        {
+          "fqn": "androidx.compose.material3.DateRangePickerKt.DateRangePicker"
+        },
+        {
+          "fqn": "androidx.compose.material3.DateRangePickerKt.rememberDateRangePickerState"
+        },
+        {
+          "fqn": "androidx.compose.material3.DividerKt.Divider"
+        },
+        {
+          "fqn": "androidx.compose.material3.DynamicTonalPaletteKt.dynamicDarkColorScheme"
+        },
+        {
+          "fqn": "androidx.compose.material3.DynamicTonalPaletteKt.dynamicLightColorScheme"
+        },
+        {
+          "fqn": "androidx.compose.material3.ExposedDropdownMenuKt.ExposedDropdownMenuBox"
+        },
+        {
+          "fqn": "androidx.compose.material3.FloatingActionButtonKt.ExtendedFloatingActionButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.FloatingActionButtonKt.FloatingActionButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.FloatingActionButtonKt.LargeFloatingActionButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.FloatingActionButtonKt.SmallFloatingActionButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.FilledIconButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.FilledIconToggleButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.FilledTonalIconButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.FilledTonalIconToggleButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.IconButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.IconToggleButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.OutlinedIconButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.OutlinedIconToggleButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconKt.Icon"
+        },
+        {
+          "fqn": "androidx.compose.material3.ListItemKt.ListItem"
+        },
+        {
+          "fqn": "androidx.compose.material3.MaterialThemeKt.MaterialTheme"
+        },
+        {
+          "fqn": "androidx.compose.material3.ModalBottomSheet_androidKt.ModalBottomSheet"
+        },
+        {
+          "fqn": "androidx.compose.material3.ModalBottomSheet_androidKt.rememberModalBottomSheetState"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationBarKt.NavigationBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.DismissibleDrawerSheet"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.DismissibleNavigationDrawer"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.ModalDrawerSheet"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.ModalNavigationDrawer"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.NavigationDrawerItem"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.PermanentDrawerSheet"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.PermanentNavigationDrawer"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.rememberDrawerState"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationRailKt.NavigationRail"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationRailKt.NavigationRailItem"
+        },
+        {
+          "fqn": "androidx.compose.material3.OutlinedTextFieldKt.OutlinedTextField"
+        },
+        {
+          "fqn": "androidx.compose.material3.ProgressIndicatorKt.CircularProgressIndicator"
+        },
+        {
+          "fqn": "androidx.compose.material3.ProgressIndicatorKt.LinearProgressIndicator"
+        },
+        {
+          "fqn": "androidx.compose.material3.RadioButtonKt.RadioButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.ScaffoldKt.Scaffold"
+        },
+        {
+          "fqn": "androidx.compose.material3.SearchBarKt.DockedSearchBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.SearchBarKt.SearchBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.SliderKt.RangeSlider"
+        },
+        {
+          "fqn": "androidx.compose.material3.SliderKt.Slider"
+        },
+        {
+          "fqn": "androidx.compose.material3.SnackbarHostKt.SnackbarHost"
+        },
+        {
+          "fqn": "androidx.compose.material3.SnackbarKt.Snackbar"
+        },
+        {
+          "fqn": "androidx.compose.material3.SurfaceKt.Surface"
+        },
+        {
+          "fqn": "androidx.compose.material3.SwipeToDismissKt.SwipeToDismiss"
+        },
+        {
+          "fqn": "androidx.compose.material3.SwipeToDismissKt.rememberDismissState"
+        },
+        {
+          "fqn": "androidx.compose.material3.SwitchKt.Switch"
+        },
+        {
+          "fqn": "androidx.compose.material3.TabKt.LeadingIconTab"
+        },
+        {
+          "fqn": "androidx.compose.material3.TabKt.Tab"
+        },
+        {
+          "fqn": "androidx.compose.material3.TabRowKt.ScrollableTabRow"
+        },
+        {
+          "fqn": "androidx.compose.material3.TabRowKt.TabRow"
+        },
+        {
+          "fqn": "androidx.compose.material3.TextFieldKt.TextField"
+        },
+        {
+          "fqn": "androidx.compose.material3.TextKt.ProvideTextStyle"
+        },
+        {
+          "fqn": "androidx.compose.material3.TextKt.Text"
+        },
+        {
+          "fqn": "androidx.compose.material3.TimePickerKt.TimeInput"
+        },
+        {
+          "fqn": "androidx.compose.material3.TimePickerKt.TimePicker"
+        },
+        {
+          "fqn": "androidx.compose.material3.TimePickerKt.rememberTimePickerState"
+        },
+        {
+          "fqn": "androidx.compose.material3.TooltipKt.PlainTooltipBox"
+        },
+        {
+          "fqn": "androidx.compose.material3.TooltipKt.RichTooltipBox"
+        }
+      ]
     },
     {
       "groupId": "androidx.compose.material3",
       "artifactId": "material3-android",
       "version": "1.1.0-beta02",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.compose.material3.AlertDialogDefaults",
+        "androidx.compose.material3.AnchorChangeHandler",
+        "androidx.compose.material3.AssistChipDefaults",
+        "androidx.compose.material3.BadgeDefaults",
+        "androidx.compose.material3.BottomAppBarDefaults",
+        "androidx.compose.material3.BottomSheetDefaults",
+        "androidx.compose.material3.BottomSheetScaffoldState",
+        "androidx.compose.material3.ButtonColors",
+        "androidx.compose.material3.ButtonDefaults",
+        "androidx.compose.material3.ButtonElevation",
+        "androidx.compose.material3.CalendarDate",
+        "androidx.compose.material3.CalendarModel",
+        "androidx.compose.material3.CalendarMonth",
+        "androidx.compose.material3.CardColors",
+        "androidx.compose.material3.CardDefaults",
+        "androidx.compose.material3.CardElevation",
+        "androidx.compose.material3.CheckboxColors",
+        "androidx.compose.material3.CheckboxDefaults",
+        "androidx.compose.material3.ChipBorder",
+        "androidx.compose.material3.ChipColors",
+        "androidx.compose.material3.ChipElevation",
+        "androidx.compose.material3.ColorScheme",
+        "androidx.compose.material3.DateInputFormat",
+        "androidx.compose.material3.DateInputValidator",
+        "androidx.compose.material3.DatePickerColors",
+        "androidx.compose.material3.DatePickerDefaults",
+        "androidx.compose.material3.DatePickerFormatter",
+        "androidx.compose.material3.DatePickerState",
+        "androidx.compose.material3.DateRangePickerDefaults",
+        "androidx.compose.material3.DateRangePickerState",
+        "androidx.compose.material3.DismissDirection",
+        "androidx.compose.material3.DismissState",
+        "androidx.compose.material3.DismissValue",
+        "androidx.compose.material3.DisplayMode",
+        "androidx.compose.material3.DividerDefaults",
+        "androidx.compose.material3.DrawerDefaults",
+        "androidx.compose.material3.DrawerState",
+        "androidx.compose.material3.DrawerValue",
+        "androidx.compose.material3.DropdownMenuPositionProvider",
+        "androidx.compose.material3.ExperimentalMaterial3Api",
+        "androidx.compose.material3.ExposedDropdownMenuBoxScope",
+        "androidx.compose.material3.ExposedDropdownMenuDefaults",
+        "androidx.compose.material3.FabPlacement",
+        "androidx.compose.material3.FabPosition",
+        "androidx.compose.material3.FilterChipDefaults",
+        "androidx.compose.material3.FixedThreshold",
+        "androidx.compose.material3.FloatingActionButtonDefaults",
+        "androidx.compose.material3.FloatingActionButtonElevation",
+        "androidx.compose.material3.FractionalThreshold",
+        "androidx.compose.material3.IconButtonColors",
+        "androidx.compose.material3.IconButtonDefaults",
+        "androidx.compose.material3.IconToggleButtonColors",
+        "androidx.compose.material3.InputChipDefaults",
+        "androidx.compose.material3.InputIdentifier",
+        "androidx.compose.material3.InternalMutatorMutex",
+        "androidx.compose.material3.ListItemColors",
+        "androidx.compose.material3.ListItemDefaults",
+        "androidx.compose.material3.MappedInteractionSource",
+        "androidx.compose.material3.MaterialTheme",
+        "androidx.compose.material3.MenuDefaults",
+        "androidx.compose.material3.MenuItemColors",
+        "androidx.compose.material3.NavigationBarDefaults",
+        "androidx.compose.material3.NavigationBarItemColors",
+        "androidx.compose.material3.NavigationBarItemDefaults",
+        "androidx.compose.material3.NavigationDrawerItemColors",
+        "androidx.compose.material3.NavigationDrawerItemDefaults",
+        "androidx.compose.material3.NavigationRailDefaults",
+        "androidx.compose.material3.NavigationRailItemColors",
+        "androidx.compose.material3.NavigationRailItemDefaults",
+        "androidx.compose.material3.OutlinedTextFieldDefaults",
+        "androidx.compose.material3.PlainTooltipState",
+        "androidx.compose.material3.ProgressIndicatorDefaults",
+        "androidx.compose.material3.RadioButtonColors",
+        "androidx.compose.material3.RadioButtonDefaults",
+        "androidx.compose.material3.ResistanceConfig",
+        "androidx.compose.material3.RichTooltipColors",
+        "androidx.compose.material3.RichTooltipState",
+        "androidx.compose.material3.ScaffoldDefaults",
+        "androidx.compose.material3.SearchBarColors",
+        "androidx.compose.material3.SearchBarDefaults",
+        "androidx.compose.material3.SelectableChipBorder",
+        "androidx.compose.material3.SelectableChipColors",
+        "androidx.compose.material3.SelectableChipElevation",
+        "androidx.compose.material3.SelectedRangeInfo",
+        "androidx.compose.material3.Selection",
+        "androidx.compose.material3.ShapeDefaults",
+        "androidx.compose.material3.Shapes",
+        "androidx.compose.material3.SheetState",
+        "androidx.compose.material3.SheetValue",
+        "androidx.compose.material3.SliderColors",
+        "androidx.compose.material3.SliderDefaults",
+        "androidx.compose.material3.SliderPositions",
+        "androidx.compose.material3.SnackbarData",
+        "androidx.compose.material3.SnackbarDefaults",
+        "androidx.compose.material3.SnackbarDuration",
+        "androidx.compose.material3.SnackbarHostState",
+        "androidx.compose.material3.SnackbarResult",
+        "androidx.compose.material3.SnackbarVisuals",
+        "androidx.compose.material3.SnapFlingBehavior",
+        "androidx.compose.material3.StateData",
+        "androidx.compose.material3.Strings",
+        "androidx.compose.material3.SuggestionChipDefaults",
+        "androidx.compose.material3.SwipeProgress",
+        "androidx.compose.material3.SwipeToDismissDefaults",
+        "androidx.compose.material3.SwipeableDefaults",
+        "androidx.compose.material3.SwipeableState",
+        "androidx.compose.material3.SwipeableV2Defaults",
+        "androidx.compose.material3.SwipeableV2State",
+        "androidx.compose.material3.SwitchColors",
+        "androidx.compose.material3.SwitchDefaults",
+        "androidx.compose.material3.TabPosition",
+        "androidx.compose.material3.TabRowDefaults",
+        "androidx.compose.material3.TextFieldColors",
+        "androidx.compose.material3.TextFieldDefaults",
+        "androidx.compose.material3.TextFieldType",
+        "androidx.compose.material3.ThresholdConfig",
+        "androidx.compose.material3.TimePickerColors",
+        "androidx.compose.material3.TimePickerDefaults",
+        "androidx.compose.material3.TimePickerLayoutType",
+        "androidx.compose.material3.TimePickerState",
+        "androidx.compose.material3.TonalPalette",
+        "androidx.compose.material3.TooltipBoxScope",
+        "androidx.compose.material3.TooltipDefaults",
+        "androidx.compose.material3.TooltipState",
+        "androidx.compose.material3.TopAppBarColors",
+        "androidx.compose.material3.TopAppBarDefaults",
+        "androidx.compose.material3.TopAppBarScrollBehavior",
+        "androidx.compose.material3.TopAppBarState",
+        "androidx.compose.material3.Typography",
+        "androidx.compose.material3.tokens.AssistChipTokens",
+        "androidx.compose.material3.tokens.BadgeTokens",
+        "androidx.compose.material3.tokens.BottomAppBarTokens",
+        "androidx.compose.material3.tokens.CheckboxTokens",
+        "androidx.compose.material3.tokens.CircularProgressIndicatorTokens",
+        "androidx.compose.material3.tokens.ColorDarkTokens",
+        "androidx.compose.material3.tokens.ColorLightTokens",
+        "androidx.compose.material3.tokens.ColorSchemeKeyTokens",
+        "androidx.compose.material3.tokens.DateInputModalTokens",
+        "androidx.compose.material3.tokens.DatePickerModalTokens",
+        "androidx.compose.material3.tokens.DialogTokens",
+        "androidx.compose.material3.tokens.DividerTokens",
+        "androidx.compose.material3.tokens.ElevatedButtonTokens",
+        "androidx.compose.material3.tokens.ElevatedCardTokens",
+        "androidx.compose.material3.tokens.ElevationTokens",
+        "androidx.compose.material3.tokens.ExtendedFabPrimaryTokens",
+        "androidx.compose.material3.tokens.FabPrimaryLargeTokens",
+        "androidx.compose.material3.tokens.FabPrimarySmallTokens",
+        "androidx.compose.material3.tokens.FabPrimaryTokens",
+        "androidx.compose.material3.tokens.FabSecondaryTokens",
+        "androidx.compose.material3.tokens.FilledAutocompleteTokens",
+        "androidx.compose.material3.tokens.FilledButtonTokens",
+        "androidx.compose.material3.tokens.FilledCardTokens",
+        "androidx.compose.material3.tokens.FilledIconButtonTokens",
+        "androidx.compose.material3.tokens.FilledTextFieldTokens",
+        "androidx.compose.material3.tokens.FilledTonalButtonTokens",
+        "androidx.compose.material3.tokens.FilledTonalIconButtonTokens",
+        "androidx.compose.material3.tokens.FilterChipTokens",
+        "androidx.compose.material3.tokens.IconButtonTokens",
+        "androidx.compose.material3.tokens.InputChipTokens",
+        "androidx.compose.material3.tokens.LinearProgressIndicatorTokens",
+        "androidx.compose.material3.tokens.ListTokens",
+        "androidx.compose.material3.tokens.MenuTokens",
+        "androidx.compose.material3.tokens.MotionTokens",
+        "androidx.compose.material3.tokens.NavigationBarTokens",
+        "androidx.compose.material3.tokens.NavigationDrawerTokens",
+        "androidx.compose.material3.tokens.NavigationRailTokens",
+        "androidx.compose.material3.tokens.OutlinedAutocompleteTokens",
+        "androidx.compose.material3.tokens.OutlinedButtonTokens",
+        "androidx.compose.material3.tokens.OutlinedCardTokens",
+        "androidx.compose.material3.tokens.OutlinedIconButtonTokens",
+        "androidx.compose.material3.tokens.OutlinedTextFieldTokens",
+        "androidx.compose.material3.tokens.PaletteTokens",
+        "androidx.compose.material3.tokens.PlainTooltipTokens",
+        "androidx.compose.material3.tokens.PrimaryNavigationTabTokens",
+        "androidx.compose.material3.tokens.RadioButtonTokens",
+        "androidx.compose.material3.tokens.RichTooltipTokens",
+        "androidx.compose.material3.tokens.ScrimTokens",
+        "androidx.compose.material3.tokens.SearchBarTokens",
+        "androidx.compose.material3.tokens.SearchViewTokens",
+        "androidx.compose.material3.tokens.ShapeKeyTokens",
+        "androidx.compose.material3.tokens.ShapeTokens",
+        "androidx.compose.material3.tokens.SheetBottomTokens",
+        "androidx.compose.material3.tokens.SliderTokens",
+        "androidx.compose.material3.tokens.SnackbarTokens",
+        "androidx.compose.material3.tokens.StateTokens",
+        "androidx.compose.material3.tokens.SuggestionChipTokens",
+        "androidx.compose.material3.tokens.SwitchTokens",
+        "androidx.compose.material3.tokens.TextButtonTokens",
+        "androidx.compose.material3.tokens.TimeInputTokens",
+        "androidx.compose.material3.tokens.TimePickerTokens",
+        "androidx.compose.material3.tokens.TopAppBarLargeTokens",
+        "androidx.compose.material3.tokens.TopAppBarMediumTokens",
+        "androidx.compose.material3.tokens.TopAppBarSmallCenteredTokens",
+        "androidx.compose.material3.tokens.TopAppBarSmallTokens",
+        "androidx.compose.material3.tokens.TypeScaleTokens",
+        "androidx.compose.material3.tokens.TypefaceTokens",
+        "androidx.compose.material3.tokens.TypographyKeyTokens",
+        "androidx.compose.material3.tokens.TypographyTokens"
+      ],
+      "ktlfns": [
+        {
+          "fqn": "androidx.compose.material3.AndroidAlertDialog_androidKt.AlertDialog"
+        },
+        {
+          "fqn": "androidx.compose.material3.AndroidMenu_androidKt.DropdownMenu"
+        },
+        {
+          "fqn": "androidx.compose.material3.AndroidMenu_androidKt.DropdownMenuItem"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.BottomAppBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.CenterAlignedTopAppBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.LargeTopAppBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.MediumTopAppBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.TopAppBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.AppBarKt.rememberTopAppBarState"
+        },
+        {
+          "fqn": "androidx.compose.material3.BadgeKt.Badge"
+        },
+        {
+          "fqn": "androidx.compose.material3.BadgeKt.BadgedBox"
+        },
+        {
+          "fqn": "androidx.compose.material3.BottomSheetScaffoldKt.BottomSheetScaffold"
+        },
+        {
+          "fqn": "androidx.compose.material3.BottomSheetScaffoldKt.rememberBottomSheetScaffoldState"
+        },
+        {
+          "fqn": "androidx.compose.material3.BottomSheetScaffoldKt.rememberStandardBottomSheetState"
+        },
+        {
+          "fqn": "androidx.compose.material3.ButtonKt.Button"
+        },
+        {
+          "fqn": "androidx.compose.material3.ButtonKt.ElevatedButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.ButtonKt.FilledTonalButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.ButtonKt.OutlinedButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.ButtonKt.TextButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.CardKt.Card"
+        },
+        {
+          "fqn": "androidx.compose.material3.CardKt.ElevatedCard"
+        },
+        {
+          "fqn": "androidx.compose.material3.CardKt.OutlinedCard"
+        },
+        {
+          "fqn": "androidx.compose.material3.CheckboxKt.Checkbox"
+        },
+        {
+          "fqn": "androidx.compose.material3.CheckboxKt.TriStateCheckbox"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.AssistChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.ElevatedAssistChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.ElevatedFilterChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.ElevatedSuggestionChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.FilterChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.InputChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ChipKt.SuggestionChip"
+        },
+        {
+          "fqn": "androidx.compose.material3.ColorSchemeKt.contentColorFor"
+        },
+        {
+          "fqn": "androidx.compose.material3.ColorSchemeKt.darkColorScheme"
+        },
+        {
+          "fqn": "androidx.compose.material3.ColorSchemeKt.lightColorScheme"
+        },
+        {
+          "fqn": "androidx.compose.material3.DatePickerDialog_androidKt.DatePickerDialog"
+        },
+        {
+          "fqn": "androidx.compose.material3.DatePickerKt.DatePicker"
+        },
+        {
+          "fqn": "androidx.compose.material3.DatePickerKt.rememberDatePickerState"
+        },
+        {
+          "fqn": "androidx.compose.material3.DateRangePickerKt.DateRangePicker"
+        },
+        {
+          "fqn": "androidx.compose.material3.DateRangePickerKt.rememberDateRangePickerState"
+        },
+        {
+          "fqn": "androidx.compose.material3.DividerKt.Divider"
+        },
+        {
+          "fqn": "androidx.compose.material3.DynamicTonalPaletteKt.dynamicDarkColorScheme"
+        },
+        {
+          "fqn": "androidx.compose.material3.DynamicTonalPaletteKt.dynamicLightColorScheme"
+        },
+        {
+          "fqn": "androidx.compose.material3.ExposedDropdownMenuKt.ExposedDropdownMenuBox"
+        },
+        {
+          "fqn": "androidx.compose.material3.FloatingActionButtonKt.ExtendedFloatingActionButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.FloatingActionButtonKt.FloatingActionButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.FloatingActionButtonKt.LargeFloatingActionButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.FloatingActionButtonKt.SmallFloatingActionButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.FilledIconButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.FilledIconToggleButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.FilledTonalIconButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.FilledTonalIconToggleButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.IconButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.IconToggleButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.OutlinedIconButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconButtonKt.OutlinedIconToggleButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.IconKt.Icon"
+        },
+        {
+          "fqn": "androidx.compose.material3.ListItemKt.ListItem"
+        },
+        {
+          "fqn": "androidx.compose.material3.MaterialThemeKt.MaterialTheme"
+        },
+        {
+          "fqn": "androidx.compose.material3.ModalBottomSheetKt.ModalBottomSheet"
+        },
+        {
+          "fqn": "androidx.compose.material3.ModalBottomSheetKt.rememberModalBottomSheetState"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationBarKt.NavigationBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.DismissibleDrawerSheet"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.DismissibleNavigationDrawer"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.ModalDrawerSheet"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.ModalNavigationDrawer"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.NavigationDrawerItem"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.PermanentDrawerSheet"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.PermanentNavigationDrawer"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationDrawerKt.rememberDrawerState"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationRailKt.NavigationRail"
+        },
+        {
+          "fqn": "androidx.compose.material3.NavigationRailKt.NavigationRailItem"
+        },
+        {
+          "fqn": "androidx.compose.material3.OutlinedTextFieldKt.OutlinedTextField"
+        },
+        {
+          "fqn": "androidx.compose.material3.ProgressIndicatorKt.CircularProgressIndicator"
+        },
+        {
+          "fqn": "androidx.compose.material3.ProgressIndicatorKt.LinearProgressIndicator"
+        },
+        {
+          "fqn": "androidx.compose.material3.RadioButtonKt.RadioButton"
+        },
+        {
+          "fqn": "androidx.compose.material3.ScaffoldKt.Scaffold"
+        },
+        {
+          "fqn": "androidx.compose.material3.SearchBarKt.DockedSearchBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.SearchBarKt.SearchBar"
+        },
+        {
+          "fqn": "androidx.compose.material3.SliderKt.RangeSlider"
+        },
+        {
+          "fqn": "androidx.compose.material3.SliderKt.Slider"
+        },
+        {
+          "fqn": "androidx.compose.material3.SnackbarHostKt.SnackbarHost"
+        },
+        {
+          "fqn": "androidx.compose.material3.SnackbarKt.Snackbar"
+        },
+        {
+          "fqn": "androidx.compose.material3.SurfaceKt.Surface"
+        },
+        {
+          "fqn": "androidx.compose.material3.SwipeToDismissKt.SwipeToDismiss"
+        },
+        {
+          "fqn": "androidx.compose.material3.SwipeToDismissKt.rememberDismissState"
+        },
+        {
+          "fqn": "androidx.compose.material3.SwitchKt.Switch"
+        },
+        {
+          "fqn": "androidx.compose.material3.TabKt.LeadingIconTab"
+        },
+        {
+          "fqn": "androidx.compose.material3.TabKt.Tab"
+        },
+        {
+          "fqn": "androidx.compose.material3.TabRowKt.ScrollableTabRow"
+        },
+        {
+          "fqn": "androidx.compose.material3.TabRowKt.TabRow"
+        },
+        {
+          "fqn": "androidx.compose.material3.TextFieldKt.TextField"
+        },
+        {
+          "fqn": "androidx.compose.material3.TextKt.ProvideTextStyle"
+        },
+        {
+          "fqn": "androidx.compose.material3.TextKt.Text"
+        },
+        {
+          "fqn": "androidx.compose.material3.TimePickerKt.TimeInput"
+        },
+        {
+          "fqn": "androidx.compose.material3.TimePickerKt.TimePicker"
+        },
+        {
+          "fqn": "androidx.compose.material3.TimePickerKt.rememberTimePickerState"
+        },
+        {
+          "fqn": "androidx.compose.material3.TooltipKt.PlainTooltipBox"
+        },
+        {
+          "fqn": "androidx.compose.material3.TooltipKt.RichTooltipBox"
+        }
+      ]
     },
     {
       "groupId": "androidx.compose.material3",
       "artifactId": "material3-window-size-class",
       "version": "1.1.0",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi",
+        "androidx.compose.material3.windowsizeclass.WindowHeightSizeClass",
+        "androidx.compose.material3.windowsizeclass.WindowSizeClass",
+        "androidx.compose.material3.windowsizeclass.WindowWidthSizeClass"
+      ],
+      "ktlfns": [
+        {
+          "fqn": "androidx.compose.material3.windowsizeclass.AndroidWindowSizeClass_androidKt.calculateWindowSizeClass"
+        }
+      ]
     },
     {
       "groupId": "androidx.compose.material3",
       "artifactId": "material3-window-size-class-android",
       "version": "1.1.0-beta02",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi",
+        "androidx.compose.material3.windowsizeclass.WindowHeightSizeClass",
+        "androidx.compose.material3.windowsizeclass.WindowSizeClass",
+        "androidx.compose.material3.windowsizeclass.WindowWidthSizeClass"
+      ],
+      "ktlfns": [
+        {
+          "fqn": "androidx.compose.material3.windowsizeclass.AndroidWindowSizeClass_androidKt.calculateWindowSizeClass"
+        }
+      ]
     },
     {
       "groupId": "androidx.compose.runtime",
@@ -6239,56 +6953,14 @@
       "artifactId": "media2",
       "version": "1.0.0-alpha04",
       "ktxTargets": [],
-      "fqcns": [
-        "androidx.media2.CallbackMediaItem",
-        "androidx.media2.DataSourceCallback",
-        "androidx.media2.FileMediaItem",
-        "androidx.media2.HeartRating",
-        "androidx.media2.IMediaController",
-        "androidx.media2.IMediaSession",
-        "androidx.media2.IMediaSessionService",
-        "androidx.media2.MediaBrowser",
-        "androidx.media2.MediaController",
-        "androidx.media2.MediaItem",
-        "androidx.media2.MediaLibraryService",
-        "androidx.media2.MediaMetadata",
-        "androidx.media2.MediaPlayer",
-        "androidx.media2.MediaSession",
-        "androidx.media2.MediaSessionManager",
-        "androidx.media2.MediaSessionService",
-        "androidx.media2.MediaTimestamp",
-        "androidx.media2.PercentageRating",
-        "androidx.media2.PlaybackParams",
-        "androidx.media2.Rating",
-        "androidx.media2.SessionCommand",
-        "androidx.media2.SessionCommandGroup",
-        "androidx.media2.SessionPlayer",
-        "androidx.media2.SessionToken",
-        "androidx.media2.StarRating",
-        "androidx.media2.SubtitleData",
-        "androidx.media2.ThumbRating",
-        "androidx.media2.TimedMetaData",
-        "androidx.media2.UriMediaItem",
-        "androidx.media2.VideoSize"
-      ]
+      "fqcns": []
     },
     {
       "groupId": "androidx.media2",
       "artifactId": "media2-common",
       "version": "1.2.1",
       "ktxTargets": [],
-      "fqcns": [
-        "androidx.media2.common.CallbackMediaItem",
-        "androidx.media2.common.DataSourceCallback",
-        "androidx.media2.common.FileMediaItem",
-        "androidx.media2.common.MediaItem",
-        "androidx.media2.common.MediaMetadata",
-        "androidx.media2.common.Rating",
-        "androidx.media2.common.SessionPlayer",
-        "androidx.media2.common.SubtitleData",
-        "androidx.media2.common.UriMediaItem",
-        "androidx.media2.common.VideoSize"
-      ]
+      "fqcns": []
     },
     {
       "groupId": "androidx.media2",
@@ -6302,219 +6974,920 @@
       "artifactId": "media2-player",
       "version": "1.2.1",
       "ktxTargets": [],
-      "fqcns": [
-        "androidx.media2.player.MediaPlayer",
-        "androidx.media2.player.MediaTimestamp",
-        "androidx.media2.player.PlaybackParams",
-        "androidx.media2.player.TimedMetaData",
-        "androidx.media2.player.VideoSize"
-      ]
+      "fqcns": []
     },
     {
       "groupId": "androidx.media2",
       "artifactId": "media2-session",
       "version": "1.2.1",
       "ktxTargets": [],
-      "fqcns": [
-        "androidx.media2.session.HeartRating",
-        "androidx.media2.session.IMediaController",
-        "androidx.media2.session.IMediaSession",
-        "androidx.media2.session.IMediaSessionService",
-        "androidx.media2.session.LibraryResult",
-        "androidx.media2.session.MediaBrowser",
-        "androidx.media2.session.MediaConstants",
-        "androidx.media2.session.MediaController",
-        "androidx.media2.session.MediaLibraryService",
-        "androidx.media2.session.MediaSession",
-        "androidx.media2.session.MediaSessionManager",
-        "androidx.media2.session.MediaSessionService",
-        "androidx.media2.session.PercentageRating",
-        "androidx.media2.session.RemoteSessionPlayer",
-        "androidx.media2.session.SessionCommand",
-        "androidx.media2.session.SessionCommandGroup",
-        "androidx.media2.session.SessionResult",
-        "androidx.media2.session.SessionToken",
-        "androidx.media2.session.StarRating",
-        "androidx.media2.session.ThumbRating"
-      ]
+      "fqcns": []
     },
     {
       "groupId": "androidx.media2",
       "artifactId": "media2-widget",
       "version": "1.2.1",
       "ktxTargets": [],
-      "fqcns": [
-        "androidx.media2.widget.MediaControlView",
-        "androidx.media2.widget.VideoView"
-      ]
+      "fqcns": []
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-cast",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.cast.CastPlayer",
+        "androidx.media3.cast.DefaultCastOptionsProvider",
+        "androidx.media3.cast.DefaultMediaItemConverter",
+        "androidx.media3.cast.MediaItemConverter",
+        "androidx.media3.cast.SessionAvailabilityListener"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-common",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.common.AdOverlayInfo",
+        "androidx.media3.common.AdPlaybackState",
+        "androidx.media3.common.AdViewProvider",
+        "androidx.media3.common.AudioAttributes",
+        "androidx.media3.common.AuxEffectInfo",
+        "androidx.media3.common.BasePlayer",
+        "androidx.media3.common.BundleListRetriever",
+        "androidx.media3.common.Bundleable",
+        "androidx.media3.common.C",
+        "androidx.media3.common.ColorInfo",
+        "androidx.media3.common.DataReader",
+        "androidx.media3.common.DebugViewProvider",
+        "androidx.media3.common.DeviceInfo",
+        "androidx.media3.common.DrmInitData",
+        "androidx.media3.common.Effect",
+        "androidx.media3.common.ErrorMessageProvider",
+        "androidx.media3.common.FileTypes",
+        "androidx.media3.common.FlagSet",
+        "androidx.media3.common.Format",
+        "androidx.media3.common.ForwardingPlayer",
+        "androidx.media3.common.FrameInfo",
+        "androidx.media3.common.FrameProcessingException",
+        "androidx.media3.common.FrameProcessor",
+        "androidx.media3.common.HeartRating",
+        "androidx.media3.common.IllegalSeekPositionException",
+        "androidx.media3.common.LegacyMediaPlayerWrapper",
+        "androidx.media3.common.MediaItem",
+        "androidx.media3.common.MediaLibraryInfo",
+        "androidx.media3.common.MediaMetadata",
+        "androidx.media3.common.MediaPeriodId",
+        "androidx.media3.common.Metadata",
+        "androidx.media3.common.MimeTypes",
+        "androidx.media3.common.ParserException",
+        "androidx.media3.common.PercentageRating",
+        "androidx.media3.common.PlaybackException",
+        "androidx.media3.common.PlaybackParameters",
+        "androidx.media3.common.Player",
+        "androidx.media3.common.PriorityTaskManager",
+        "androidx.media3.common.Rating",
+        "androidx.media3.common.SimpleBasePlayer",
+        "androidx.media3.common.StarRating",
+        "androidx.media3.common.StreamKey",
+        "androidx.media3.common.SurfaceInfo",
+        "androidx.media3.common.ThumbRating",
+        "androidx.media3.common.Timeline",
+        "androidx.media3.common.TrackGroup",
+        "androidx.media3.common.TrackSelectionOverride",
+        "androidx.media3.common.TrackSelectionParameters",
+        "androidx.media3.common.Tracks",
+        "androidx.media3.common.VideoSize",
+        "androidx.media3.common.audio.AudioProcessor",
+        "androidx.media3.common.audio.AudioProcessorChain",
+        "androidx.media3.common.text.Cue",
+        "androidx.media3.common.text.CueGroup",
+        "androidx.media3.common.text.HorizontalTextInVerticalContextSpan",
+        "androidx.media3.common.text.LanguageFeatureSpan",
+        "androidx.media3.common.text.RubySpan",
+        "androidx.media3.common.text.SpanUtil",
+        "androidx.media3.common.text.TextAnnotation",
+        "androidx.media3.common.text.TextEmphasisSpan",
+        "androidx.media3.common.util.Assertions",
+        "androidx.media3.common.util.AtomicFile",
+        "androidx.media3.common.util.BundleUtil",
+        "androidx.media3.common.util.BundleableUtil",
+        "androidx.media3.common.util.Clock",
+        "androidx.media3.common.util.CodecSpecificDataUtil",
+        "androidx.media3.common.util.ColorParser",
+        "androidx.media3.common.util.ConditionVariable",
+        "androidx.media3.common.util.Consumer",
+        "androidx.media3.common.util.CopyOnWriteMultiset",
+        "androidx.media3.common.util.EGLSurfaceTexture",
+        "androidx.media3.common.util.GlProgram",
+        "androidx.media3.common.util.GlUtil",
+        "androidx.media3.common.util.HandlerWrapper",
+        "androidx.media3.common.util.LibraryLoader",
+        "androidx.media3.common.util.ListenerSet",
+        "androidx.media3.common.util.Log",
+        "androidx.media3.common.util.LongArray",
+        "androidx.media3.common.util.MediaFormatUtil",
+        "androidx.media3.common.util.NetworkTypeObserver",
+        "androidx.media3.common.util.NonNullApi",
+        "androidx.media3.common.util.NotificationUtil",
+        "androidx.media3.common.util.ParsableBitArray",
+        "androidx.media3.common.util.ParsableByteArray",
+        "androidx.media3.common.util.RepeatModeUtil",
+        "androidx.media3.common.util.RunnableFutureTask",
+        "androidx.media3.common.util.Size",
+        "androidx.media3.common.util.SystemClock",
+        "androidx.media3.common.util.TimedValueQueue",
+        "androidx.media3.common.util.TimestampAdjuster",
+        "androidx.media3.common.util.TraceUtil",
+        "androidx.media3.common.util.UnknownNull",
+        "androidx.media3.common.util.UnstableApi",
+        "androidx.media3.common.util.UriUtil",
+        "androidx.media3.common.util.Util",
+        "androidx.media3.common.util.XmlPullParserUtil"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-database",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.database.DatabaseIOException",
+        "androidx.media3.database.DatabaseProvider",
+        "androidx.media3.database.DefaultDatabaseProvider",
+        "androidx.media3.database.StandaloneDatabaseProvider",
+        "androidx.media3.database.VersionTable"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-datasource",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.datasource.AesCipherDataSink",
+        "androidx.media3.datasource.AesCipherDataSource",
+        "androidx.media3.datasource.AesFlushingCipher",
+        "androidx.media3.datasource.AssetDataSource",
+        "androidx.media3.datasource.BaseDataSource",
+        "androidx.media3.datasource.ByteArrayDataSink",
+        "androidx.media3.datasource.ByteArrayDataSource",
+        "androidx.media3.datasource.ContentDataSource",
+        "androidx.media3.datasource.DataSchemeDataSource",
+        "androidx.media3.datasource.DataSink",
+        "androidx.media3.datasource.DataSource",
+        "androidx.media3.datasource.DataSourceException",
+        "androidx.media3.datasource.DataSourceInputStream",
+        "androidx.media3.datasource.DataSourceUtil",
+        "androidx.media3.datasource.DataSpec",
+        "androidx.media3.datasource.DefaultDataSource",
+        "androidx.media3.datasource.DefaultHttpDataSource",
+        "androidx.media3.datasource.FileDataSource",
+        "androidx.media3.datasource.HttpDataSource",
+        "androidx.media3.datasource.HttpUtil",
+        "androidx.media3.datasource.PlaceholderDataSource",
+        "androidx.media3.datasource.PriorityDataSource",
+        "androidx.media3.datasource.RawResourceDataSource",
+        "androidx.media3.datasource.ResolvingDataSource",
+        "androidx.media3.datasource.StatsDataSource",
+        "androidx.media3.datasource.TeeDataSource",
+        "androidx.media3.datasource.TransferListener",
+        "androidx.media3.datasource.UdpDataSource",
+        "androidx.media3.datasource.cache.Cache",
+        "androidx.media3.datasource.cache.CacheDataSink",
+        "androidx.media3.datasource.cache.CacheDataSource",
+        "androidx.media3.datasource.cache.CacheEvictor",
+        "androidx.media3.datasource.cache.CacheKeyFactory",
+        "androidx.media3.datasource.cache.CacheSpan",
+        "androidx.media3.datasource.cache.CacheWriter",
+        "androidx.media3.datasource.cache.ContentMetadata",
+        "androidx.media3.datasource.cache.ContentMetadataMutations",
+        "androidx.media3.datasource.cache.DefaultContentMetadata",
+        "androidx.media3.datasource.cache.LeastRecentlyUsedCacheEvictor",
+        "androidx.media3.datasource.cache.NoOpCacheEvictor",
+        "androidx.media3.datasource.cache.SimpleCache"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-datasource-cronet",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.datasource.cronet.CronetDataSource",
+        "androidx.media3.datasource.cronet.CronetUtil"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-datasource-okhttp",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.datasource.okhttp.OkHttpDataSource"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-datasource-rtmp",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.datasource.rtmp.RtmpDataSource"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-decoder",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.decoder.Buffer",
+        "androidx.media3.decoder.CryptoConfig",
+        "androidx.media3.decoder.CryptoException",
+        "androidx.media3.decoder.CryptoInfo",
+        "androidx.media3.decoder.Decoder",
+        "androidx.media3.decoder.DecoderException",
+        "androidx.media3.decoder.DecoderInputBuffer",
+        "androidx.media3.decoder.DecoderOutputBuffer",
+        "androidx.media3.decoder.SimpleDecoder",
+        "androidx.media3.decoder.SimpleDecoderOutputBuffer",
+        "androidx.media3.decoder.VideoDecoderOutputBuffer"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-effect",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.effect.ColorLut",
+        "androidx.media3.effect.Contrast",
+        "androidx.media3.effect.Crop",
+        "androidx.media3.effect.GlEffect",
+        "androidx.media3.effect.GlEffectsFrameProcessor",
+        "androidx.media3.effect.GlMatrixTransformation",
+        "androidx.media3.effect.GlTextureProcessor",
+        "androidx.media3.effect.HslAdjustment",
+        "androidx.media3.effect.MatrixTransformation",
+        "androidx.media3.effect.Presentation",
+        "androidx.media3.effect.RgbAdjustment",
+        "androidx.media3.effect.RgbFilter",
+        "androidx.media3.effect.RgbMatrix",
+        "androidx.media3.effect.ScaleToFitTransformation",
+        "androidx.media3.effect.SingleColorLut",
+        "androidx.media3.effect.SingleFrameGlTextureProcessor",
+        "androidx.media3.effect.TextureInfo"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.exoplayer.AbstractConcatenatedTimeline",
+        "androidx.media3.exoplayer.BaseRenderer",
+        "androidx.media3.exoplayer.DecoderCounters",
+        "androidx.media3.exoplayer.DecoderReuseEvaluation",
+        "androidx.media3.exoplayer.DefaultLivePlaybackSpeedControl",
+        "androidx.media3.exoplayer.DefaultLoadControl",
+        "androidx.media3.exoplayer.DefaultRenderersFactory",
+        "androidx.media3.exoplayer.ExoPlaybackException",
+        "androidx.media3.exoplayer.ExoPlayer",
+        "androidx.media3.exoplayer.ExoTimeoutException",
+        "androidx.media3.exoplayer.FormatHolder",
+        "androidx.media3.exoplayer.LivePlaybackSpeedControl",
+        "androidx.media3.exoplayer.LoadControl",
+        "androidx.media3.exoplayer.MediaClock",
+        "androidx.media3.exoplayer.MetadataRetriever",
+        "androidx.media3.exoplayer.NoSampleRenderer",
+        "androidx.media3.exoplayer.PlayerMessage",
+        "androidx.media3.exoplayer.Renderer",
+        "androidx.media3.exoplayer.RendererCapabilities",
+        "androidx.media3.exoplayer.RendererConfiguration",
+        "androidx.media3.exoplayer.RenderersFactory",
+        "androidx.media3.exoplayer.SeekParameters",
+        "androidx.media3.exoplayer.StandaloneMediaClock",
+        "androidx.media3.exoplayer.analytics.AnalyticsCollector",
+        "androidx.media3.exoplayer.analytics.AnalyticsListener",
+        "androidx.media3.exoplayer.analytics.DefaultAnalyticsCollector",
+        "androidx.media3.exoplayer.analytics.DefaultPlaybackSessionManager",
+        "androidx.media3.exoplayer.analytics.MediaMetricsListener",
+        "androidx.media3.exoplayer.analytics.PlaybackSessionManager",
+        "androidx.media3.exoplayer.analytics.PlaybackStats",
+        "androidx.media3.exoplayer.analytics.PlaybackStatsListener",
+        "androidx.media3.exoplayer.analytics.PlayerId",
+        "androidx.media3.exoplayer.audio.AudioCapabilities",
+        "androidx.media3.exoplayer.audio.AudioCapabilitiesReceiver",
+        "androidx.media3.exoplayer.audio.AudioRendererEventListener",
+        "androidx.media3.exoplayer.audio.AudioSink",
+        "androidx.media3.exoplayer.audio.BaseAudioProcessor",
+        "androidx.media3.exoplayer.audio.DecoderAudioRenderer",
+        "androidx.media3.exoplayer.audio.DefaultAudioSink",
+        "androidx.media3.exoplayer.audio.DefaultAudioTrackBufferSizeProvider",
+        "androidx.media3.exoplayer.audio.ForwardingAudioSink",
+        "androidx.media3.exoplayer.audio.MediaCodecAudioRenderer",
+        "androidx.media3.exoplayer.audio.SilenceSkippingAudioProcessor",
+        "androidx.media3.exoplayer.audio.SonicAudioProcessor",
+        "androidx.media3.exoplayer.audio.TeeAudioProcessor",
+        "androidx.media3.exoplayer.drm.DefaultDrmSessionManager",
+        "androidx.media3.exoplayer.drm.DefaultDrmSessionManagerProvider",
+        "androidx.media3.exoplayer.drm.DrmSession",
+        "androidx.media3.exoplayer.drm.DrmSessionEventListener",
+        "androidx.media3.exoplayer.drm.DrmSessionManager",
+        "androidx.media3.exoplayer.drm.DrmSessionManagerProvider",
+        "androidx.media3.exoplayer.drm.DrmUtil",
+        "androidx.media3.exoplayer.drm.DummyExoMediaDrm",
+        "androidx.media3.exoplayer.drm.ErrorStateDrmSession",
+        "androidx.media3.exoplayer.drm.ExoMediaDrm",
+        "androidx.media3.exoplayer.drm.FrameworkCryptoConfig",
+        "androidx.media3.exoplayer.drm.FrameworkMediaDrm",
+        "androidx.media3.exoplayer.drm.HttpMediaDrmCallback",
+        "androidx.media3.exoplayer.drm.KeysExpiredException",
+        "androidx.media3.exoplayer.drm.LocalMediaDrmCallback",
+        "androidx.media3.exoplayer.drm.MediaDrmCallback",
+        "androidx.media3.exoplayer.drm.MediaDrmCallbackException",
+        "androidx.media3.exoplayer.drm.OfflineLicenseHelper",
+        "androidx.media3.exoplayer.drm.UnsupportedDrmException",
+        "androidx.media3.exoplayer.drm.WidevineUtil",
+        "androidx.media3.exoplayer.mediacodec.DefaultMediaCodecAdapterFactory",
+        "androidx.media3.exoplayer.mediacodec.MediaCodecAdapter",
+        "androidx.media3.exoplayer.mediacodec.MediaCodecDecoderException",
+        "androidx.media3.exoplayer.mediacodec.MediaCodecInfo",
+        "androidx.media3.exoplayer.mediacodec.MediaCodecRenderer",
+        "androidx.media3.exoplayer.mediacodec.MediaCodecSelector",
+        "androidx.media3.exoplayer.mediacodec.MediaCodecUtil",
+        "androidx.media3.exoplayer.mediacodec.SynchronousMediaCodecAdapter",
+        "androidx.media3.exoplayer.metadata.MetadataDecoderFactory",
+        "androidx.media3.exoplayer.metadata.MetadataOutput",
+        "androidx.media3.exoplayer.metadata.MetadataRenderer",
+        "androidx.media3.exoplayer.offline.DefaultDownloadIndex",
+        "androidx.media3.exoplayer.offline.DefaultDownloaderFactory",
+        "androidx.media3.exoplayer.offline.Download",
+        "androidx.media3.exoplayer.offline.DownloadCursor",
+        "androidx.media3.exoplayer.offline.DownloadException",
+        "androidx.media3.exoplayer.offline.DownloadHelper",
+        "androidx.media3.exoplayer.offline.DownloadIndex",
+        "androidx.media3.exoplayer.offline.DownloadManager",
+        "androidx.media3.exoplayer.offline.DownloadNotificationHelper",
+        "androidx.media3.exoplayer.offline.DownloadProgress",
+        "androidx.media3.exoplayer.offline.DownloadRequest",
+        "androidx.media3.exoplayer.offline.DownloadService",
+        "androidx.media3.exoplayer.offline.Downloader",
+        "androidx.media3.exoplayer.offline.DownloaderFactory",
+        "androidx.media3.exoplayer.offline.FilterableManifest",
+        "androidx.media3.exoplayer.offline.FilteringManifestParser",
+        "androidx.media3.exoplayer.offline.ProgressiveDownloader",
+        "androidx.media3.exoplayer.offline.SegmentDownloader",
+        "androidx.media3.exoplayer.offline.WritableDownloadIndex",
+        "androidx.media3.exoplayer.scheduler.PlatformScheduler",
+        "androidx.media3.exoplayer.scheduler.Requirements",
+        "androidx.media3.exoplayer.scheduler.RequirementsWatcher",
+        "androidx.media3.exoplayer.scheduler.Scheduler",
+        "androidx.media3.exoplayer.source.BaseMediaSource",
+        "androidx.media3.exoplayer.source.BehindLiveWindowException",
+        "androidx.media3.exoplayer.source.BundledExtractorsAdapter",
+        "androidx.media3.exoplayer.source.ClippingMediaPeriod",
+        "androidx.media3.exoplayer.source.ClippingMediaSource",
+        "androidx.media3.exoplayer.source.CompositeMediaSource",
+        "androidx.media3.exoplayer.source.CompositeSequenceableLoader",
+        "androidx.media3.exoplayer.source.CompositeSequenceableLoaderFactory",
+        "androidx.media3.exoplayer.source.ConcatenatingMediaSource",
+        "androidx.media3.exoplayer.source.ConcatenatingMediaSource2",
+        "androidx.media3.exoplayer.source.DefaultCompositeSequenceableLoaderFactory",
+        "androidx.media3.exoplayer.source.DefaultMediaSourceFactory",
+        "androidx.media3.exoplayer.source.EmptySampleStream",
+        "androidx.media3.exoplayer.source.ForwardingTimeline",
+        "androidx.media3.exoplayer.source.LoadEventInfo",
+        "androidx.media3.exoplayer.source.MaskingMediaPeriod",
+        "androidx.media3.exoplayer.source.MaskingMediaSource",
+        "androidx.media3.exoplayer.source.MediaLoadData",
+        "androidx.media3.exoplayer.source.MediaParserExtractorAdapter",
+        "androidx.media3.exoplayer.source.MediaPeriod",
+        "androidx.media3.exoplayer.source.MediaSource",
+        "androidx.media3.exoplayer.source.MediaSourceEventListener",
+        "androidx.media3.exoplayer.source.MergingMediaSource",
+        "androidx.media3.exoplayer.source.ProgressiveMediaExtractor",
+        "androidx.media3.exoplayer.source.ProgressiveMediaSource",
+        "androidx.media3.exoplayer.source.SampleQueue",
+        "androidx.media3.exoplayer.source.SampleStream",
+        "androidx.media3.exoplayer.source.SequenceableLoader",
+        "androidx.media3.exoplayer.source.ShuffleOrder",
+        "androidx.media3.exoplayer.source.SilenceMediaSource",
+        "androidx.media3.exoplayer.source.SinglePeriodTimeline",
+        "androidx.media3.exoplayer.source.SingleSampleMediaSource",
+        "androidx.media3.exoplayer.source.TrackGroupArray",
+        "androidx.media3.exoplayer.source.UnrecognizedInputFormatException",
+        "androidx.media3.exoplayer.source.WrappingMediaSource",
+        "androidx.media3.exoplayer.source.ads.AdsLoader",
+        "androidx.media3.exoplayer.source.ads.AdsMediaSource",
+        "androidx.media3.exoplayer.source.ads.ServerSideAdInsertionMediaSource",
+        "androidx.media3.exoplayer.source.ads.ServerSideAdInsertionUtil",
+        "androidx.media3.exoplayer.source.ads.SinglePeriodAdTimeline",
+        "androidx.media3.exoplayer.source.chunk.BaseMediaChunk",
+        "androidx.media3.exoplayer.source.chunk.BaseMediaChunkIterator",
+        "androidx.media3.exoplayer.source.chunk.BaseMediaChunkOutput",
+        "androidx.media3.exoplayer.source.chunk.BundledChunkExtractor",
+        "androidx.media3.exoplayer.source.chunk.Chunk",
+        "androidx.media3.exoplayer.source.chunk.ChunkExtractor",
+        "androidx.media3.exoplayer.source.chunk.ChunkHolder",
+        "androidx.media3.exoplayer.source.chunk.ChunkSampleStream",
+        "androidx.media3.exoplayer.source.chunk.ChunkSource",
+        "androidx.media3.exoplayer.source.chunk.ContainerMediaChunk",
+        "androidx.media3.exoplayer.source.chunk.DataChunk",
+        "androidx.media3.exoplayer.source.chunk.InitializationChunk",
+        "androidx.media3.exoplayer.source.chunk.MediaChunk",
+        "androidx.media3.exoplayer.source.chunk.MediaChunkIterator",
+        "androidx.media3.exoplayer.source.chunk.MediaParserChunkExtractor",
+        "androidx.media3.exoplayer.source.chunk.SingleSampleMediaChunk",
+        "androidx.media3.exoplayer.source.mediaparser.InputReaderAdapterV30",
+        "androidx.media3.exoplayer.source.mediaparser.MediaParserUtil",
+        "androidx.media3.exoplayer.source.mediaparser.OutputConsumerAdapterV30",
+        "androidx.media3.exoplayer.text.ExoplayerCuesDecoder",
+        "androidx.media3.exoplayer.text.SubtitleDecoderFactory",
+        "androidx.media3.exoplayer.text.TextOutput",
+        "androidx.media3.exoplayer.text.TextRenderer",
+        "androidx.media3.exoplayer.trackselection.AdaptiveTrackSelection",
+        "androidx.media3.exoplayer.trackselection.BaseTrackSelection",
+        "androidx.media3.exoplayer.trackselection.DefaultTrackSelector",
+        "androidx.media3.exoplayer.trackselection.ExoTrackSelection",
+        "androidx.media3.exoplayer.trackselection.FixedTrackSelection",
+        "androidx.media3.exoplayer.trackselection.MappingTrackSelector",
+        "androidx.media3.exoplayer.trackselection.RandomTrackSelection",
+        "androidx.media3.exoplayer.trackselection.TrackSelection",
+        "androidx.media3.exoplayer.trackselection.TrackSelectionArray",
+        "androidx.media3.exoplayer.trackselection.TrackSelectionUtil",
+        "androidx.media3.exoplayer.trackselection.TrackSelector",
+        "androidx.media3.exoplayer.trackselection.TrackSelectorResult",
+        "androidx.media3.exoplayer.upstream.Allocation",
+        "androidx.media3.exoplayer.upstream.Allocator",
+        "androidx.media3.exoplayer.upstream.BandwidthMeter",
+        "androidx.media3.exoplayer.upstream.CachedRegionTracker",
+        "androidx.media3.exoplayer.upstream.DefaultAllocator",
+        "androidx.media3.exoplayer.upstream.DefaultBandwidthMeter",
+        "androidx.media3.exoplayer.upstream.DefaultLoadErrorHandlingPolicy",
+        "androidx.media3.exoplayer.upstream.LoadErrorHandlingPolicy",
+        "androidx.media3.exoplayer.upstream.Loader",
+        "androidx.media3.exoplayer.upstream.LoaderErrorThrower",
+        "androidx.media3.exoplayer.upstream.ParsingLoadable",
+        "androidx.media3.exoplayer.upstream.SlidingPercentile",
+        "androidx.media3.exoplayer.upstream.TimeToFirstByteEstimator",
+        "androidx.media3.exoplayer.util.DebugTextViewHelper",
+        "androidx.media3.exoplayer.util.EventLogger",
+        "androidx.media3.exoplayer.util.SntpClient",
+        "androidx.media3.exoplayer.video.DecoderVideoRenderer",
+        "androidx.media3.exoplayer.video.MediaCodecVideoDecoderException",
+        "androidx.media3.exoplayer.video.MediaCodecVideoRenderer",
+        "androidx.media3.exoplayer.video.PlaceholderSurface",
+        "androidx.media3.exoplayer.video.VideoDecoderGLSurfaceView",
+        "androidx.media3.exoplayer.video.VideoDecoderOutputBufferRenderer",
+        "androidx.media3.exoplayer.video.VideoFrameMetadataListener",
+        "androidx.media3.exoplayer.video.VideoFrameReleaseHelper",
+        "androidx.media3.exoplayer.video.VideoRendererEventListener",
+        "androidx.media3.exoplayer.video.spherical.CameraMotionListener",
+        "androidx.media3.exoplayer.video.spherical.CameraMotionRenderer",
+        "androidx.media3.exoplayer.video.spherical.SphericalGLSurfaceView"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-dash",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.exoplayer.dash.BaseUrlExclusionList",
+        "androidx.media3.exoplayer.dash.DashChunkSource",
+        "androidx.media3.exoplayer.dash.DashManifestStaleException",
+        "androidx.media3.exoplayer.dash.DashMediaSource",
+        "androidx.media3.exoplayer.dash.DashSegmentIndex",
+        "androidx.media3.exoplayer.dash.DashUtil",
+        "androidx.media3.exoplayer.dash.DashWrappingSegmentIndex",
+        "androidx.media3.exoplayer.dash.DefaultDashChunkSource",
+        "androidx.media3.exoplayer.dash.PlayerEmsgHandler",
+        "androidx.media3.exoplayer.dash.manifest.AdaptationSet",
+        "androidx.media3.exoplayer.dash.manifest.BaseUrl",
+        "androidx.media3.exoplayer.dash.manifest.DashManifest",
+        "androidx.media3.exoplayer.dash.manifest.DashManifestParser",
+        "androidx.media3.exoplayer.dash.manifest.Descriptor",
+        "androidx.media3.exoplayer.dash.manifest.EventStream",
+        "androidx.media3.exoplayer.dash.manifest.Period",
+        "androidx.media3.exoplayer.dash.manifest.ProgramInformation",
+        "androidx.media3.exoplayer.dash.manifest.RangedUri",
+        "androidx.media3.exoplayer.dash.manifest.Representation",
+        "androidx.media3.exoplayer.dash.manifest.SegmentBase",
+        "androidx.media3.exoplayer.dash.manifest.ServiceDescriptionElement",
+        "androidx.media3.exoplayer.dash.manifest.UrlTemplate",
+        "androidx.media3.exoplayer.dash.manifest.UtcTimingElement",
+        "androidx.media3.exoplayer.dash.offline.DashDownloader"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-hls",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.exoplayer.hls.BundledHlsMediaChunkExtractor",
+        "androidx.media3.exoplayer.hls.DefaultHlsDataSourceFactory",
+        "androidx.media3.exoplayer.hls.DefaultHlsExtractorFactory",
+        "androidx.media3.exoplayer.hls.HlsDataSourceFactory",
+        "androidx.media3.exoplayer.hls.HlsExtractorFactory",
+        "androidx.media3.exoplayer.hls.HlsManifest",
+        "androidx.media3.exoplayer.hls.HlsMediaChunkExtractor",
+        "androidx.media3.exoplayer.hls.HlsMediaPeriod",
+        "androidx.media3.exoplayer.hls.HlsMediaSource",
+        "androidx.media3.exoplayer.hls.HlsTrackMetadataEntry",
+        "androidx.media3.exoplayer.hls.MediaParserHlsMediaChunkExtractor",
+        "androidx.media3.exoplayer.hls.SampleQueueMappingException",
+        "androidx.media3.exoplayer.hls.TimestampAdjusterProvider",
+        "androidx.media3.exoplayer.hls.WebvttExtractor",
+        "androidx.media3.exoplayer.hls.offline.HlsDownloader",
+        "androidx.media3.exoplayer.hls.playlist.DefaultHlsPlaylistParserFactory",
+        "androidx.media3.exoplayer.hls.playlist.DefaultHlsPlaylistTracker",
+        "androidx.media3.exoplayer.hls.playlist.FilteringHlsPlaylistParserFactory",
+        "androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist",
+        "androidx.media3.exoplayer.hls.playlist.HlsMultivariantPlaylist",
+        "androidx.media3.exoplayer.hls.playlist.HlsPlaylist",
+        "androidx.media3.exoplayer.hls.playlist.HlsPlaylistParser",
+        "androidx.media3.exoplayer.hls.playlist.HlsPlaylistParserFactory",
+        "androidx.media3.exoplayer.hls.playlist.HlsPlaylistTracker"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-ima",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.exoplayer.ima.ImaAdsLoader",
+        "androidx.media3.exoplayer.ima.ImaServerSideAdInsertionMediaSource",
+        "androidx.media3.exoplayer.ima.ImaServerSideAdInsertionUriBuilder"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-rtsp",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.exoplayer.rtsp.RtpPacket",
+        "androidx.media3.exoplayer.rtsp.RtpPayloadFormat",
+        "androidx.media3.exoplayer.rtsp.RtpUtils",
+        "androidx.media3.exoplayer.rtsp.RtspMediaSource",
+        "androidx.media3.exoplayer.rtsp.reader.DefaultRtpPayloadReaderFactory",
+        "androidx.media3.exoplayer.rtsp.reader.RtpAc3Reader",
+        "androidx.media3.exoplayer.rtsp.reader.RtpPayloadReader",
+        "androidx.media3.exoplayer.rtsp.reader.RtpPcmReader"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-smoothstreaming",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.exoplayer.smoothstreaming.DefaultSsChunkSource",
+        "androidx.media3.exoplayer.smoothstreaming.SsChunkSource",
+        "androidx.media3.exoplayer.smoothstreaming.SsMediaSource",
+        "androidx.media3.exoplayer.smoothstreaming.manifest.SsManifest",
+        "androidx.media3.exoplayer.smoothstreaming.manifest.SsManifestParser",
+        "androidx.media3.exoplayer.smoothstreaming.offline.SsDownloader"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-exoplayer-workmanager",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.exoplayer.workmanager.WorkManagerScheduler"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-extractor",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.extractor.AacUtil",
+        "androidx.media3.extractor.Ac3Util",
+        "androidx.media3.extractor.Ac4Util",
+        "androidx.media3.extractor.AvcConfig",
+        "androidx.media3.extractor.BinarySearchSeeker",
+        "androidx.media3.extractor.CeaUtil",
+        "androidx.media3.extractor.ChunkIndex",
+        "androidx.media3.extractor.ConstantBitrateSeekMap",
+        "androidx.media3.extractor.DefaultExtractorInput",
+        "androidx.media3.extractor.DefaultExtractorsFactory",
+        "androidx.media3.extractor.DolbyVisionConfig",
+        "androidx.media3.extractor.DtsUtil",
+        "androidx.media3.extractor.DummyExtractorOutput",
+        "androidx.media3.extractor.DummyTrackOutput",
+        "androidx.media3.extractor.Extractor",
+        "androidx.media3.extractor.ExtractorInput",
+        "androidx.media3.extractor.ExtractorOutput",
+        "androidx.media3.extractor.ExtractorUtil",
+        "androidx.media3.extractor.ExtractorsFactory",
+        "androidx.media3.extractor.FlacFrameReader",
+        "androidx.media3.extractor.FlacMetadataReader",
+        "androidx.media3.extractor.FlacSeekTableSeekMap",
+        "androidx.media3.extractor.FlacStreamMetadata",
+        "androidx.media3.extractor.ForwardingExtractorInput",
+        "androidx.media3.extractor.GaplessInfoHolder",
+        "androidx.media3.extractor.HevcConfig",
+        "androidx.media3.extractor.Id3Peeker",
+        "androidx.media3.extractor.IndexSeekMap",
+        "androidx.media3.extractor.MpegAudioUtil",
+        "androidx.media3.extractor.NalUnitUtil",
+        "androidx.media3.extractor.OpusUtil",
+        "androidx.media3.extractor.ParsableNalUnitBitArray",
+        "androidx.media3.extractor.PositionHolder",
+        "androidx.media3.extractor.SeekMap",
+        "androidx.media3.extractor.SeekPoint",
+        "androidx.media3.extractor.TrackOutput",
+        "androidx.media3.extractor.TrueHdSampleRechunker",
+        "androidx.media3.extractor.VorbisBitArray",
+        "androidx.media3.extractor.VorbisUtil",
+        "androidx.media3.extractor.WavUtil",
+        "androidx.media3.extractor.amr.AmrExtractor",
+        "androidx.media3.extractor.avi.AviExtractor",
+        "androidx.media3.extractor.flac.FlacConstants",
+        "androidx.media3.extractor.flac.FlacExtractor",
+        "androidx.media3.extractor.flv.FlvExtractor",
+        "androidx.media3.extractor.jpeg.JpegExtractor",
+        "androidx.media3.extractor.jpeg.StartOffsetExtractorOutput",
+        "androidx.media3.extractor.metadata.MetadataDecoder",
+        "androidx.media3.extractor.metadata.MetadataInputBuffer",
+        "androidx.media3.extractor.metadata.SimpleMetadataDecoder",
+        "androidx.media3.extractor.metadata.dvbsi.AppInfoTable",
+        "androidx.media3.extractor.metadata.dvbsi.AppInfoTableDecoder",
+        "androidx.media3.extractor.metadata.emsg.EventMessage",
+        "androidx.media3.extractor.metadata.emsg.EventMessageDecoder",
+        "androidx.media3.extractor.metadata.emsg.EventMessageEncoder",
+        "androidx.media3.extractor.metadata.flac.PictureFrame",
+        "androidx.media3.extractor.metadata.icy.IcyDecoder",
+        "androidx.media3.extractor.metadata.icy.IcyHeaders",
+        "androidx.media3.extractor.metadata.icy.IcyInfo",
+        "androidx.media3.extractor.metadata.id3.ApicFrame",
+        "androidx.media3.extractor.metadata.id3.BinaryFrame",
+        "androidx.media3.extractor.metadata.id3.ChapterFrame",
+        "androidx.media3.extractor.metadata.id3.ChapterTocFrame",
+        "androidx.media3.extractor.metadata.id3.CommentFrame",
+        "androidx.media3.extractor.metadata.id3.GeobFrame",
+        "androidx.media3.extractor.metadata.id3.Id3Decoder",
+        "androidx.media3.extractor.metadata.id3.Id3Frame",
+        "androidx.media3.extractor.metadata.id3.InternalFrame",
+        "androidx.media3.extractor.metadata.id3.MlltFrame",
+        "androidx.media3.extractor.metadata.id3.PrivFrame",
+        "androidx.media3.extractor.metadata.id3.TextInformationFrame",
+        "androidx.media3.extractor.metadata.id3.UrlLinkFrame",
+        "androidx.media3.extractor.metadata.mp4.MdtaMetadataEntry",
+        "androidx.media3.extractor.metadata.mp4.MotionPhotoMetadata",
+        "androidx.media3.extractor.metadata.mp4.SlowMotionData",
+        "androidx.media3.extractor.metadata.mp4.SmtaMetadataEntry",
+        "androidx.media3.extractor.metadata.scte35.PrivateCommand",
+        "androidx.media3.extractor.metadata.scte35.SpliceCommand",
+        "androidx.media3.extractor.metadata.scte35.SpliceInfoDecoder",
+        "androidx.media3.extractor.metadata.scte35.SpliceInsertCommand",
+        "androidx.media3.extractor.metadata.scte35.SpliceNullCommand",
+        "androidx.media3.extractor.metadata.scte35.SpliceScheduleCommand",
+        "androidx.media3.extractor.metadata.scte35.TimeSignalCommand",
+        "androidx.media3.extractor.metadata.vorbis.VorbisComment",
+        "androidx.media3.extractor.mkv.EbmlProcessor",
+        "androidx.media3.extractor.mkv.MatroskaExtractor",
+        "androidx.media3.extractor.mp3.Mp3Extractor",
+        "androidx.media3.extractor.mp4.FragmentedMp4Extractor",
+        "androidx.media3.extractor.mp4.Mp4Extractor",
+        "androidx.media3.extractor.mp4.PsshAtomUtil",
+        "androidx.media3.extractor.mp4.Track",
+        "androidx.media3.extractor.mp4.TrackEncryptionBox",
+        "androidx.media3.extractor.ogg.OggExtractor",
+        "androidx.media3.extractor.text.CueDecoder",
+        "androidx.media3.extractor.text.CueEncoder",
+        "androidx.media3.extractor.text.SimpleSubtitleDecoder",
+        "androidx.media3.extractor.text.Subtitle",
+        "androidx.media3.extractor.text.SubtitleDecoder",
+        "androidx.media3.extractor.text.SubtitleDecoderException",
+        "androidx.media3.extractor.text.SubtitleExtractor",
+        "androidx.media3.extractor.text.SubtitleInputBuffer",
+        "androidx.media3.extractor.text.SubtitleOutputBuffer",
+        "androidx.media3.extractor.text.cea.Cea608Decoder",
+        "androidx.media3.extractor.text.cea.Cea708Decoder",
+        "androidx.media3.extractor.text.dvb.DvbDecoder",
+        "androidx.media3.extractor.text.pgs.PgsDecoder",
+        "androidx.media3.extractor.text.ssa.SsaDecoder",
+        "androidx.media3.extractor.text.subrip.SubripDecoder",
+        "androidx.media3.extractor.text.ttml.TtmlDecoder",
+        "androidx.media3.extractor.text.tx3g.Tx3gDecoder",
+        "androidx.media3.extractor.text.webvtt.Mp4WebvttDecoder",
+        "androidx.media3.extractor.text.webvtt.WebvttCssStyle",
+        "androidx.media3.extractor.text.webvtt.WebvttCueInfo",
+        "androidx.media3.extractor.text.webvtt.WebvttCueParser",
+        "androidx.media3.extractor.text.webvtt.WebvttDecoder",
+        "androidx.media3.extractor.text.webvtt.WebvttParserUtil",
+        "androidx.media3.extractor.ts.Ac3Extractor",
+        "androidx.media3.extractor.ts.Ac3Reader",
+        "androidx.media3.extractor.ts.Ac4Extractor",
+        "androidx.media3.extractor.ts.Ac4Reader",
+        "androidx.media3.extractor.ts.AdtsExtractor",
+        "androidx.media3.extractor.ts.AdtsReader",
+        "androidx.media3.extractor.ts.DefaultTsPayloadReaderFactory",
+        "androidx.media3.extractor.ts.DtsReader",
+        "androidx.media3.extractor.ts.DvbSubtitleReader",
+        "androidx.media3.extractor.ts.ElementaryStreamReader",
+        "androidx.media3.extractor.ts.H262Reader",
+        "androidx.media3.extractor.ts.H263Reader",
+        "androidx.media3.extractor.ts.H264Reader",
+        "androidx.media3.extractor.ts.H265Reader",
+        "androidx.media3.extractor.ts.Id3Reader",
+        "androidx.media3.extractor.ts.LatmReader",
+        "androidx.media3.extractor.ts.MpegAudioReader",
+        "androidx.media3.extractor.ts.PassthroughSectionPayloadReader",
+        "androidx.media3.extractor.ts.PesReader",
+        "androidx.media3.extractor.ts.PsExtractor",
+        "androidx.media3.extractor.ts.SectionPayloadReader",
+        "androidx.media3.extractor.ts.SectionReader",
+        "androidx.media3.extractor.ts.SeiReader",
+        "androidx.media3.extractor.ts.TsExtractor",
+        "androidx.media3.extractor.ts.TsPayloadReader",
+        "androidx.media3.extractor.ts.TsUtil",
+        "androidx.media3.extractor.wav.WavExtractor"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-muxer",
       "version": "1.1.0-alpha01",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.muxer.AnnexBToAvccConverter",
+        "androidx.media3.muxer.Mp4Muxer"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-session",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.session.BitmapLoader",
+        "androidx.media3.session.CacheBitmapLoader",
+        "androidx.media3.session.CommandButton",
+        "androidx.media3.session.DefaultMediaNotificationProvider",
+        "androidx.media3.session.IMediaController",
+        "androidx.media3.session.IMediaSession",
+        "androidx.media3.session.IMediaSessionService",
+        "androidx.media3.session.LibraryResult",
+        "androidx.media3.session.MediaBrowser",
+        "androidx.media3.session.MediaConstants",
+        "androidx.media3.session.MediaController",
+        "androidx.media3.session.MediaLibraryService",
+        "androidx.media3.session.MediaNotification",
+        "androidx.media3.session.MediaSession",
+        "androidx.media3.session.MediaSessionService",
+        "androidx.media3.session.MediaStyleNotificationHelper",
+        "androidx.media3.session.SessionCommand",
+        "androidx.media3.session.SessionCommands",
+        "androidx.media3.session.SessionResult",
+        "androidx.media3.session.SessionToken",
+        "androidx.media3.session.SimpleBitmapLoader"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-test-utils",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.test.utils.Action",
+        "androidx.media3.test.utils.ActionSchedule",
+        "androidx.media3.test.utils.AdditionalFailureInfo",
+        "androidx.media3.test.utils.AssetContentProvider",
+        "androidx.media3.test.utils.CacheAsserts",
+        "androidx.media3.test.utils.CapturingAudioSink",
+        "androidx.media3.test.utils.CapturingRenderersFactory",
+        "androidx.media3.test.utils.DataSourceContractTest",
+        "androidx.media3.test.utils.DecodeOneFrameUtil",
+        "androidx.media3.test.utils.DecoderCountersUtil",
+        "androidx.media3.test.utils.DefaultRenderersFactoryAsserts",
+        "androidx.media3.test.utils.DownloadBuilder",
+        "androidx.media3.test.utils.DummyMainThread",
+        "androidx.media3.test.utils.DumpFileAsserts",
+        "androidx.media3.test.utils.DumpableFormat",
+        "androidx.media3.test.utils.Dumper",
+        "androidx.media3.test.utils.ExoHostedTest",
+        "androidx.media3.test.utils.ExoPlayerTestRunner",
+        "androidx.media3.test.utils.ExtractorAsserts",
+        "androidx.media3.test.utils.FailOnCloseDataSink",
+        "androidx.media3.test.utils.FakeAdaptiveDataSet",
+        "androidx.media3.test.utils.FakeAdaptiveMediaPeriod",
+        "androidx.media3.test.utils.FakeAdaptiveMediaSource",
+        "androidx.media3.test.utils.FakeAudioRenderer",
+        "androidx.media3.test.utils.FakeChunkSource",
+        "androidx.media3.test.utils.FakeClock",
+        "androidx.media3.test.utils.FakeCryptoConfig",
+        "androidx.media3.test.utils.FakeDataSet",
+        "androidx.media3.test.utils.FakeDataSource",
+        "androidx.media3.test.utils.FakeExoMediaDrm",
+        "androidx.media3.test.utils.FakeExtractorInput",
+        "androidx.media3.test.utils.FakeExtractorOutput",
+        "androidx.media3.test.utils.FakeMediaChunk",
+        "androidx.media3.test.utils.FakeMediaChunkIterator",
+        "androidx.media3.test.utils.FakeMediaClockRenderer",
+        "androidx.media3.test.utils.FakeMediaPeriod",
+        "androidx.media3.test.utils.FakeMediaSource",
+        "androidx.media3.test.utils.FakeMediaSourceFactory",
+        "androidx.media3.test.utils.FakeMetadataEntry",
+        "androidx.media3.test.utils.FakeRenderer",
+        "androidx.media3.test.utils.FakeSampleStream",
+        "androidx.media3.test.utils.FakeShuffleOrder",
+        "androidx.media3.test.utils.FakeTimeline",
+        "androidx.media3.test.utils.FakeTrackOutput",
+        "androidx.media3.test.utils.FakeTrackSelection",
+        "androidx.media3.test.utils.FakeTrackSelector",
+        "androidx.media3.test.utils.FakeVideoRenderer",
+        "androidx.media3.test.utils.HostActivity",
+        "androidx.media3.test.utils.HttpDataSourceTestEnv",
+        "androidx.media3.test.utils.MediaPeriodAsserts",
+        "androidx.media3.test.utils.MediaSourceTestRunner",
+        "androidx.media3.test.utils.StubExoPlayer",
+        "androidx.media3.test.utils.StubPlayer",
+        "androidx.media3.test.utils.TestExoPlayerBuilder",
+        "androidx.media3.test.utils.TestUtil",
+        "androidx.media3.test.utils.TimelineAsserts",
+        "androidx.media3.test.utils.WebServerDispatcher",
+        "androidx.media3.test.utils.truth.SpannedSubject"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-test-utils-robolectric",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.test.utils.robolectric.PlaybackOutput",
+        "androidx.media3.test.utils.robolectric.RandomizedMp3Decoder",
+        "androidx.media3.test.utils.robolectric.RobolectricUtil",
+        "androidx.media3.test.utils.robolectric.ShadowMediaCodecConfig",
+        "androidx.media3.test.utils.robolectric.TestDownloadManagerListener",
+        "androidx.media3.test.utils.robolectric.TestPlayerRunHelper"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-transformer",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.transformer.Codec",
+        "androidx.media3.transformer.DefaultCodec",
+        "androidx.media3.transformer.DefaultEncoderFactory",
+        "androidx.media3.transformer.DefaultMuxer",
+        "androidx.media3.transformer.DeviceMappedEncoderBitrateProvider",
+        "androidx.media3.transformer.EncoderBitrateProvider",
+        "androidx.media3.transformer.EncoderSelector",
+        "androidx.media3.transformer.EncoderUtil",
+        "androidx.media3.transformer.Muxer",
+        "androidx.media3.transformer.ProgressHolder",
+        "androidx.media3.transformer.TransformationException",
+        "androidx.media3.transformer.TransformationRequest",
+        "androidx.media3.transformer.TransformationResult",
+        "androidx.media3.transformer.Transformer",
+        "androidx.media3.transformer.VideoEncoderSettings"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-ui",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.ui.AspectRatioFrameLayout",
+        "androidx.media3.ui.CaptionStyleCompat",
+        "androidx.media3.ui.DefaultMediaDescriptionAdapter",
+        "androidx.media3.ui.DefaultTimeBar",
+        "androidx.media3.ui.DefaultTrackNameProvider",
+        "androidx.media3.ui.LegacyPlayerControlView",
+        "androidx.media3.ui.PlayerControlView",
+        "androidx.media3.ui.PlayerNotificationManager",
+        "androidx.media3.ui.PlayerView",
+        "androidx.media3.ui.SubtitleView",
+        "androidx.media3.ui.TimeBar",
+        "androidx.media3.ui.TrackNameProvider",
+        "androidx.media3.ui.TrackSelectionDialogBuilder",
+        "androidx.media3.ui.TrackSelectionView"
+      ]
     },
     {
       "groupId": "androidx.media3",
       "artifactId": "media3-ui-leanback",
       "version": "1.0.2",
       "ktxTargets": [],
-      "fqcns": []
+      "fqcns": [
+        "androidx.media3.ui.leanback.LeanbackPlayerAdapter"
+      ]
     },
     {
       "groupId": "androidx.mediarouter",
@@ -12780,7 +14153,7 @@
     {
       "groupId": "com.android.tools.build",
       "artifactId": "bundletool",
-      "version": "1.15.0",
+      "version": "1.15.1",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -13423,7 +14796,7 @@
     {
       "groupId": "com.google.ads.mediation",
       "artifactId": "pangle",
-      "version": "5.1.0.9.0",
+      "version": "5.2.0.3.0",
       "ktxTargets": [],
       "fqcns": []
     },
@@ -16806,7 +18179,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "app-update",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.play.core.appupdate.AppUpdateInfo",
@@ -16828,7 +18201,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "app-update-ktx",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "ktxTargets": [
         "com.google.android.play:app-update"
       ],
@@ -16839,7 +18212,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "asset-delivery",
-      "version": "2.0.2",
+      "version": "2.1.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.play.core.assetpacks.AssetLocation",
@@ -16862,7 +18235,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "asset-delivery-ktx",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "ktxTargets": [
         "com.google.android.play:asset-delivery"
       ],
@@ -16963,7 +18336,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "feature-delivery",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "ktxTargets": [],
       "fqcns": [
         "com.google.android.play.core.splitcompat.SplitCompat",
@@ -16985,7 +18358,7 @@
     {
       "groupId": "com.google.android.play",
       "artifactId": "feature-delivery-ktx",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "ktxTargets": [
         "com.google.android.play:feature-delivery"
       ],

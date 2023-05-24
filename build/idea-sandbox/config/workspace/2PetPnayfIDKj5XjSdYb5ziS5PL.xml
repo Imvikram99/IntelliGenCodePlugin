@@ -17,7 +17,7 @@
   </component>
   <component name="FileTypeUsageLocalSummary">
     <fileType name="JAVA">
-      <summary usageCount="22" lastUsed="1684573685173" />
+      <summary usageCount="23" lastUsed="1684969059024" />
     </fileType>
   </component>
   <component name="IdeDocumentHistory">
@@ -35,7 +35,6 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -52,6 +51,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>

@@ -3981,6 +3981,10 @@
           {
             "pluginIdString": "dev.monogon.cuelang",
             "nullablePluginName": "CUE"
+          },
+          {
+            "pluginIdString": "today.movatech.plugins.cuefy",
+            "nullablePluginName": "Cuefy"
           }
         ]
       },
@@ -9829,6 +9833,10 @@
           {
             "pluginIdString": "kn.uni.dbis.oberon.lang",
             "nullablePluginName": "Oberon"
+          },
+          {
+            "pluginIdString": "com.soywiz.korge.korge-intellij-plugin",
+            "nullablePluginName": "Korge"
           }
         ]
       },
@@ -13170,6 +13178,14 @@
           {
             "pluginIdString": "com.badahori.creatures.plugins.intellij.agenteering",
             "nullablePluginName": "Creatures CAOS and Agenteering"
+          }
+        ]
+      },
+      "*.s3m": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.soywiz.korge.korge-intellij-plugin",
+            "nullablePluginName": "Korge"
           }
         ]
       },
@@ -16793,6 +16809,14 @@
           }
         ]
       },
+      "*.xm": {
+        "dataSet": [
+          {
+            "pluginIdString": "com.soywiz.korge.korge-intellij-plugin",
+            "nullablePluginName": "Korge"
+          }
+        ]
+      },
       "*.xmd": {
         "dataSet": [
           {
@@ -18727,7 +18751,7 @@
         ]
       }
     },
-    "lastUpdateTime": 1684573691959
+    "lastUpdateTime": 1684969066236
   },
   "dependencies": {
     "featureMap": {
@@ -20404,7 +20428,7 @@
         ]
       }
     },
-    "lastUpdateTime": 1684573692017
+    "lastUpdateTime": 1684969066375
   }
 }]]></component>
   <component name="PluginFeatureService">{

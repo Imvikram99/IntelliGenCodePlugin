@@ -46,7 +46,7 @@ public class OpenAiAdapter {
             if(e.getMessage().equals(INVALID_API_KEY_MSG)){
                 return INVALID_API_KEY_MSG+" please provide valid api keys";
             }
-            return "your request couldn't be processed";
+            return "your request couldn't be processed: "+ e.getMessage();
         }
     }
 

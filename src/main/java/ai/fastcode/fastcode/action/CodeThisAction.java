@@ -20,7 +20,7 @@ import org.jetbrains.annotations.NotNull;
 public class CodeThisAction extends AnAction {
 
     public CodeThisAction() {
-        //super("IntelliCodeGen", "IntelliCodeGen generates code with chat gpt 4", IconClass.CUSTOM_ICON);
+        super("FastCode", "FastCode generates code with chat gpt 4", IconClass.CUSTOM_ICON);
     }
 
     @Override

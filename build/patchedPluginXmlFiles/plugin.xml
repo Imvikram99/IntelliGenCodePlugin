@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-  <version>2.0-STABLE</version>
+  <version>2.1-STABLE</version>
   <idea-version since-build="221" until-build="231.*" />
   <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
   <id>ai.fastcode.fastcode</id>
@@ -12,21 +12,21 @@
   <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-  <description><![CDATA[FastCode, powered by ChatGPT, is an intelligent code generation plugin for IntelliJ IDEA. It revolutionizes the way you write code by providing AI-powered assistance directly within your IDE.
+  <description><![CDATA[FastCode, powered by ChatGPT, is an intelligent code generation plugin for IntelliJ IDEA. It revolutionizes the way you write code by providing AI-powered assistance directly within your IDE.<br/>
 
-With FastCode, you can generate code snippets, templates, and even complete functions or classes effortlessly. It's designed to enhance your coding productivity and speed up development tasks. Here's how FastCode empowers you:
+With FastCode, you can generate code snippets, templates, and even complete functions or classes effortlessly. It's designed to enhance your coding productivity and speed up development tasks. Here's how FastCode empowers you:<br/>
 
-1. Seamless Integration: FastCode seamlessly integrates into your IntelliJ IDEA IDE, allowing you to access its powerful features without leaving your coding environment.
+1. Seamless Integration: FastCode seamlessly integrates into your IntelliJ IDEA IDE, allowing you to access its powerful features without leaving your coding environment.<br/>
 
-2. Contextual Code Generation: By simply right-clicking inside a file, you'll find the FastCode option in the context menu. This provides instant access to AI-generated code suggestions tailored to the current file and context.
+2. Contextual Code Generation: By simply right-clicking inside a file, you'll find the FastCode option in the context menu. This provides instant access to AI-generated code suggestions tailored to the current file and context.<br/>
 
-3. Customizable Keyboard Shortcut: FastCode can be triggered using a customizable keyboard shortcut. On Windows, press Shift + Ctrl + Alt + F to open the FastCode interface. On Mac, use Shift + Option + Command + F. You can also customize the key combination to fit your preferences.
+3. Customizable Keyboard Shortcut: FastCode can be triggered using a customizable keyboard shortcut. On Windows, press Shift + Ctrl + Alt + F to open the FastCode interface. On Mac, use Shift + Option + Command + F. You can also customize the key combination to fit your preferences. <br/>
 
-4. AI-Powered Code Suggestions: FastCode leverages the capabilities of ChatGPT, an advanced language model, to understand your code-related prompts and generate accurate code snippets. It takes into account the programming language, framework, and context to provide intelligent suggestions.
+4. AI-Powered Code Suggestions: FastCode leverages the capabilities of ChatGPT, an advanced language model, to understand your code-related prompts and generate accurate code snippets. It takes into account the programming language, framework, and context to provide intelligent suggestions. <br/>
 
-5. Language and Framework Support: FastCode supports various programming languages and frameworks, making it adaptable to your project's tech stack. Whether you're working with Java, Python, JavaScript, or other languages, FastCode has got you covered.
+5. Language and Framework Support: FastCode supports various programming languages and frameworks, making it adaptable to your project's tech stack. Whether you're working with Java, Python, JavaScript, or other languages, FastCode has got you covered.<br/>
 
-6. Productivity Boost: With FastCode, you can save time and effort by automating repetitive coding tasks. Generate boilerplate code, implement algorithms, or get code patterns instantly, allowing you to focus on the core logic of your project.
+6. Productivity Boost: With FastCode, you can save time and effort by automating repetitive coding tasks. Generate boilerplate code, implement algorithms, or get code patterns instantly, allowing you to focus on the core logic of your project.<br/>
 
 FastCode is your coding companion, empowering you to write code faster, more efficiently, and with greater precision. Whether you're a seasoned developer or just starting your coding journey, FastCode will be there to assist you every step of the way. So buckle up and let FastCode propel your coding adventures to extraordinary heights!.<br>
     <em>chat-gpt, chat-gpt4 , chat , gpt , ai, GPT-4, GPT , code</em>]]></description>

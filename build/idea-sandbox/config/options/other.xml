@@ -20,45 +20,45 @@
       </map>
     </trackers>
   </component>
-  <component name="PropertyService"><![CDATA[{
-  "keyToString": {
-    "CWM_LOGGING_VERSION": "1",
-    "InstalledPluginsSearchHistory": "fastco",
-    "MarketplacePluginsSearchHistory": "fastco\nfast\nfas",
-    "NextRunPlatformUpdateBuild": "IC-231.9011.34/2023.1.2",
-    "NextRunPlatformUpdateVersion": "2023.1.2",
-    "PluginConfigurable.selectionTab": "1",
-    "RunOnceActivity.se.text.search": "true",
-    "bundled.plugins.list.saved.version": "IC-221.6008.13",
-    "com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep": "IntelliJ",
-    "com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep": "Java",
-    "defaultJdkConfigured": "true",
-    "eclipse.projects.detected": "",
-    "file.gist.reindex.count": "14",
-    "fileTypeChangedCounter": "1",
-    "got.it.tooltip.cwm.invitation.notification": "1",
-    "got.it.tooltip.empty.project.create.file": "1",
-    "gotit.previous.run": "IC-221.6008.13",
-    "ide.memory.adjusted": "true",
-    "ide.updates.whats.new.shown.for": "221",
-    "installed.kotlin.plugin.version": "221-1.6.21-release-337-IJ6008.13",
-    "jdk.selected.JAVA_MODULE": "17",
-    "project.wizard.group": "newWizard.com.intellij.ide.wizard.NewEmptyProjectBuilder",
-    "registry.to.advanced.settings.migration.build": "IC-221.6008.13",
-    "tasks.pass.word.conversion.enforced": "true"
+  <component name="PropertyService">{
+  &quot;keyToString&quot;: {
+    &quot;CWM_LOGGING_VERSION&quot;: &quot;1&quot;,
+    &quot;InstalledPluginsSearchHistory&quot;: &quot;fastco&quot;,
+    &quot;MarketplacePluginsSearchHistory&quot;: &quot;fastco\nfast\nfas&quot;,
+    &quot;NextRunPlatformUpdateBuild&quot;: &quot;IC-231.9011.34/2023.1.2&quot;,
+    &quot;NextRunPlatformUpdateVersion&quot;: &quot;2023.1.2&quot;,
+    &quot;PluginConfigurable.selectionTab&quot;: &quot;1&quot;,
+    &quot;RunOnceActivity.se.text.search&quot;: &quot;true&quot;,
+    &quot;bundled.plugins.list.saved.version&quot;: &quot;IC-221.6008.13&quot;,
+    &quot;com.intellij.ide.projectWizard.generators.JavaNewProjectWizard$Step.selectedStep&quot;: &quot;IntelliJ&quot;,
+    &quot;com.intellij.ide.wizard.NewProjectWizardLanguageStep.selectedStep&quot;: &quot;Java&quot;,
+    &quot;defaultJdkConfigured&quot;: &quot;true&quot;,
+    &quot;eclipse.projects.detected&quot;: &quot;&quot;,
+    &quot;file.gist.reindex.count&quot;: &quot;14&quot;,
+    &quot;fileTypeChangedCounter&quot;: &quot;1&quot;,
+    &quot;got.it.tooltip.cwm.invitation.notification&quot;: &quot;1&quot;,
+    &quot;got.it.tooltip.empty.project.create.file&quot;: &quot;1&quot;,
+    &quot;gotit.previous.run&quot;: &quot;IC-221.6008.13&quot;,
+    &quot;ide.memory.adjusted&quot;: &quot;true&quot;,
+    &quot;ide.updates.whats.new.shown.for&quot;: &quot;221&quot;,
+    &quot;installed.kotlin.plugin.version&quot;: &quot;221-1.6.21-release-337-IJ6008.13&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;project.wizard.group&quot;: &quot;newWizard.com.intellij.ide.wizard.NewEmptyProjectBuilder&quot;,
+    &quot;registry.to.advanced.settings.migration.build&quot;: &quot;IC-221.6008.13&quot;,
+    &quot;tasks.pass.word.conversion.enforced&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "fileTypeDetectors": [
-      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
-      "com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector",
-      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
-      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+  &quot;keyToStringList&quot;: {
+    &quot;fileTypeDetectors&quot;: [
+      &quot;com.intellij.ide.scratch.ScratchFileServiceImpl$Detector&quot;,
+      &quot;com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector&quot;,
+      &quot;com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector&quot;,
+      &quot;org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="test-history" project-path="$USER_HOME$/IdeaProjects/test" last-access-time="1684573685736" />
+      <command-history-file filename="test-history" project-path="$USER_HOME$/IdeaProjects/test" last-access-time="1684969059737" />
     </command-history-files>
   </component>
 </application>

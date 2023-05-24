@@ -1,13 +1,13 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="$SelectAll">
-      <i c="16" l="1684573885613" />
+      <i c="17" l="1684969155358" />
     </e>
     <e n="$Undo">
       <i c="2" l="1684431173813" />
     </e>
     <e n="EditorBackSpace">
-      <i c="344" l="1684573887636" />
+      <i c="345" l="1684969156192" />
     </e>
     <e n="EditorCopy">
       <i c="1" l="1683836287325" />
@@ -31,7 +31,7 @@
       <i c="2" l="1683830394116" />
     </e>
     <e n="SaveAll">
-      <i c="15" l="1684573889809" />
+      <i c="16" l="1684969157215" />
     </e>
     <e n="WelcomeScreen.CreateNewProject">
       <i c="2" l="1683830374310" />
