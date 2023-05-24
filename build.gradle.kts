@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "ai.fastcode"
-version = "2.1-STABLE"
+version = "2.2-STABLE"
 
 repositories {
     mavenCentral()
