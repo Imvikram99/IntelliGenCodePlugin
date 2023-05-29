@@ -1,25 +1,31 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="$SelectAll">
-      <i c="17" l="1684969155358" />
+      <i c="20" l="1684970274079" />
     </e>
     <e n="$Undo">
       <i c="2" l="1684431173813" />
     </e>
     <e n="EditorBackSpace">
-      <i c="345" l="1684969156192" />
+      <i c="354" l="1684970355052" />
     </e>
     <e n="EditorCopy">
       <i c="1" l="1683836287325" />
+    </e>
+    <e n="EditorCut">
+      <i c="1" l="1684970159479" />
     </e>
     <e n="EditorDown">
       <i c="2" l="1684069462609" />
     </e>
     <e n="EditorEnter">
-      <i c="24" l="1684573790876" />
+      <i c="26" l="1684970338551" />
     </e>
     <e n="EditorPaste">
-      <i c="7" l="1684573754125" />
+      <i c="9" l="1684970232196" />
+    </e>
+    <e n="EditorRight">
+      <i c="1" l="1684970335988" />
     </e>
     <e n="GotoAction">
       <i c="9" l="1683965985236" />
@@ -29,6 +35,9 @@
     </e>
     <e n="NewClass">
       <i c="2" l="1683830394116" />
+    </e>
+    <e n="ReformatCode">
+      <i c="1" l="1684970364419" />
     </e>
     <e n="SaveAll">
       <i c="16" l="1684969157215" />
@@ -40,7 +49,7 @@
       <i c="2" l="1683830330494" />
     </e>
     <e n="ai.fastcode.fastcode.action.CodeThisAction">
-      <i c="17" l="1684573793671" />
+      <i c="19" l="1684970277052" />
     </e>
     <e n="com.intellij.ide.ReopenProjectAction">
       <i c="2" l="1684264703891" />

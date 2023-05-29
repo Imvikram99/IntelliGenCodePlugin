@@ -44,7 +44,7 @@ public class OpenAiAdapter {
             return openAIConversationResDto.getChoices().get(0).getMessage().getContent();
         }catch(Exception e) {
             if(e.getMessage().equals(INVALID_API_KEY_MSG)){
-                return INVALID_API_KEY_MSG+" please provide valid api keys";
+                return INVALID_API_KEY_MSG+" please provide valid/working api keys";
             }
             return "your request couldn't be processed: "+ e.getMessage();
         }
@@ -76,7 +76,7 @@ public class OpenAiAdapter {
                 .build();
 
         try (Response response = client.newCall(request).execute()) {
-            if(response.code()==401){
+            if(response.code() >= 401 && response.code() < 500){
                 APIService.getInstance(null).setApiKey("");
                 throw new RuntimeException(INVALID_API_KEY_MSG);
             }
